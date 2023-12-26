@@ -1845,3 +1845,18 @@
 2023/12/26 08:02:37 [notice] 1#1: signal 17 (SIGCHLD) received from 27
 2023/12/26 08:02:37 [notice] 1#1: worker process 27 exited with code 0
 2023/12/26 08:02:37 [notice] 1#1: exit
+2023/12/26 08:42:54 [notice] 1#1: using the "epoll" event method
+2023/12/26 08:42:54 [notice] 1#1: nginx/1.25.3
+2023/12/26 08:42:54 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/26 08:42:54 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/26 08:42:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/26 08:42:54 [notice] 1#1: start worker processes
+2023/12/26 08:42:54 [notice] 1#1: start worker process 22
+2023/12/26 08:42:54 [notice] 1#1: start worker process 23
+2023/12/26 08:42:54 [notice] 1#1: start worker process 24
+2023/12/26 08:42:54 [notice] 1#1: start worker process 25
+2023/12/26 08:42:54 [notice] 1#1: start worker process 26
+2023/12/26 08:42:54 [notice] 1#1: start worker process 27
+2023/12/26 08:42:54 [notice] 1#1: start worker process 28
+2023/12/26 08:42:54 [notice] 1#1: start worker process 29
+2023/12/26 08:50:28 [warn] 25#25: *126 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.19.0.1, server: localhost, request: "POST /api/user/projects HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/1/settings"
