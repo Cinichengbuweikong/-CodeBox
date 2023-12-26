@@ -147,9 +147,6 @@ function initCode(): void {
         const f = new File(`src/${c.name}.${c.type}`, c.code);
         replStore.addFile(f);
     }
-
-    // 最后设置被激活的组件为 App.vue
-    replStore.setActive("src/App.vue");
 }
 
 function serverAddFile(fname: string) {
@@ -287,7 +284,14 @@ onMounted(async () => {
     // 初始化代码
     initCode();
 
-    ElMessage("代码获取完成 现在可以继续了");
+    setTimeout(() => {
+        // 代码初始化完成后 设置被激活的组件为 App.vue
+        // 为什么要在定时器中做这件事? 因为组件代码的解析也是需要时间的 给一点时间 让 repl 将 App.vue 的依赖代码解析好
+        // 而后才切换到 App.vue 上去显示
+        
+        replStore.setActive("src/App.vue");
+        ElMessage("代码获取完成 现在可以继续了");
+    }, 1000);
 
     // 注册事件
     // 保存代码事件 这个事件将由 tempProjectPage 触发
