@@ -1,0 +1,1847 @@
+2023/12/08 13:26:14 [notice] 1#1: using the "epoll" event method
+2023/12/08 13:26:14 [notice] 1#1: nginx/1.25.3
+2023/12/08 13:26:14 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 13:26:14 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 13:26:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 13:26:14 [notice] 1#1: start worker processes
+2023/12/08 13:26:14 [notice] 1#1: start worker process 22
+2023/12/08 13:26:14 [notice] 1#1: start worker process 23
+2023/12/08 13:26:14 [notice] 1#1: start worker process 24
+2023/12/08 13:26:14 [notice] 1#1: start worker process 25
+2023/12/08 13:26:14 [notice] 1#1: start worker process 26
+2023/12/08 13:26:14 [notice] 1#1: start worker process 27
+2023/12/08 13:26:14 [notice] 1#1: start worker process 28
+2023/12/08 13:26:14 [notice] 1#1: start worker process 29
+2023/12/08 13:26:24 [error] 22#22: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/08 13:26:24 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/08 13:29:59 [error] 23#23: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/08 13:43:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 13:43:00 [notice] 22#22: gracefully shutting down
+2023/12/08 13:43:00 [notice] 23#23: gracefully shutting down
+2023/12/08 13:43:00 [notice] 23#23: exiting
+2023/12/08 13:43:00 [notice] 24#24: gracefully shutting down
+2023/12/08 13:43:00 [notice] 25#25: gracefully shutting down
+2023/12/08 13:43:00 [notice] 27#27: gracefully shutting down
+2023/12/08 13:43:00 [notice] 27#27: exiting
+2023/12/08 13:43:00 [notice] 28#28: gracefully shutting down
+2023/12/08 13:43:00 [notice] 26#26: gracefully shutting down
+2023/12/08 13:43:00 [notice] 26#26: exiting
+2023/12/08 13:43:00 [notice] 29#29: gracefully shutting down
+2023/12/08 13:43:00 [notice] 22#22: exiting
+2023/12/08 13:43:00 [notice] 23#23: exit
+2023/12/08 13:43:00 [notice] 24#24: exiting
+2023/12/08 13:43:00 [notice] 25#25: exiting
+2023/12/08 13:43:00 [notice] 27#27: exit
+2023/12/08 13:43:00 [notice] 28#28: exiting
+2023/12/08 13:43:00 [notice] 26#26: exit
+2023/12/08 13:43:00 [notice] 29#29: exiting
+2023/12/08 13:43:00 [notice] 22#22: exit
+2023/12/08 13:43:00 [notice] 24#24: exit
+2023/12/08 13:43:00 [notice] 25#25: exit
+2023/12/08 13:43:00 [notice] 28#28: exit
+2023/12/08 13:43:00 [notice] 29#29: exit
+2023/12/08 13:43:00 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/08 13:43:00 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 13:43:00 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:43:00 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/08 13:43:00 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 13:43:00 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 13:43:00 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 13:43:00 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:43:01 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/08 13:43:01 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 13:43:01 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 13:43:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:43:01 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/08 13:43:01 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 13:43:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:43:01 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/08 13:43:01 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 13:43:01 [notice] 1#1: exit
+2023/12/08 13:43:47 [notice] 1#1: using the "epoll" event method
+2023/12/08 13:43:47 [notice] 1#1: nginx/1.25.3
+2023/12/08 13:43:47 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 13:43:47 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 13:43:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 13:43:47 [notice] 1#1: start worker processes
+2023/12/08 13:43:47 [notice] 1#1: start worker process 22
+2023/12/08 13:43:47 [notice] 1#1: start worker process 23
+2023/12/08 13:43:47 [notice] 1#1: start worker process 24
+2023/12/08 13:43:47 [notice] 1#1: start worker process 25
+2023/12/08 13:43:47 [notice] 1#1: start worker process 26
+2023/12/08 13:43:47 [notice] 1#1: start worker process 27
+2023/12/08 13:43:47 [notice] 1#1: start worker process 28
+2023/12/08 13:43:47 [notice] 1#1: start worker process 29
+2023/12/08 13:45:34 [error] 23#23: *2 open() "/usr/share/nginx/html/assets/effects/default.jpg" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /assets/effects/default.jpg HTTP/1.1", host: "localhost"
+2023/12/08 13:46:51 [error] 24#24: *3 open() "/usr/share/nginx/html/assets/effects/default.jpg" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /assets/effects/default.jpg HTTP/1.1", host: "localhost"
+2023/12/08 13:46:51 [error] 24#24: *3 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/assets/effects/default.jpg"
+2023/12/08 13:47:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 13:47:38 [notice] 22#22: gracefully shutting down
+2023/12/08 13:47:38 [notice] 23#23: gracefully shutting down
+2023/12/08 13:47:38 [notice] 24#24: gracefully shutting down
+2023/12/08 13:47:38 [notice] 26#26: gracefully shutting down
+2023/12/08 13:47:38 [notice] 28#28: gracefully shutting down
+2023/12/08 13:47:38 [notice] 27#27: gracefully shutting down
+2023/12/08 13:47:38 [notice] 29#29: gracefully shutting down
+2023/12/08 13:47:38 [notice] 29#29: exiting
+2023/12/08 13:47:38 [notice] 25#25: gracefully shutting down
+2023/12/08 13:47:38 [notice] 22#22: exiting
+2023/12/08 13:47:38 [notice] 23#23: exiting
+2023/12/08 13:47:38 [notice] 24#24: exiting
+2023/12/08 13:47:38 [notice] 26#26: exiting
+2023/12/08 13:47:38 [notice] 28#28: exiting
+2023/12/08 13:47:38 [notice] 27#27: exiting
+2023/12/08 13:47:38 [notice] 29#29: exit
+2023/12/08 13:47:38 [notice] 25#25: exiting
+2023/12/08 13:47:38 [notice] 22#22: exit
+2023/12/08 13:47:38 [notice] 23#23: exit
+2023/12/08 13:47:38 [notice] 24#24: exit
+2023/12/08 13:47:38 [notice] 26#26: exit
+2023/12/08 13:47:38 [notice] 28#28: exit
+2023/12/08 13:47:38 [notice] 27#27: exit
+2023/12/08 13:47:38 [notice] 25#25: exit
+2023/12/08 13:47:38 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/08 13:47:38 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 13:47:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:47:38 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/08 13:47:38 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 13:47:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:47:38 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/08 13:47:38 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 13:47:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:47:38 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/08 13:47:38 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 13:47:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:47:38 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/08 13:47:38 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 13:47:38 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 13:47:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:47:38 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/08 13:47:38 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 13:47:38 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 13:47:38 [notice] 1#1: exit
+2023/12/08 13:47:47 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/08 13:47:47 [notice] 1#1: using the "epoll" event method
+2023/12/08 13:47:47 [notice] 1#1: nginx/1.25.3
+2023/12/08 13:47:47 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 13:47:47 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 13:47:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 13:47:47 [notice] 1#1: start worker processes
+2023/12/08 13:47:47 [notice] 1#1: start worker process 22
+2023/12/08 13:47:47 [notice] 1#1: start worker process 23
+2023/12/08 13:47:47 [notice] 1#1: start worker process 24
+2023/12/08 13:47:47 [notice] 1#1: start worker process 25
+2023/12/08 13:47:47 [notice] 1#1: start worker process 26
+2023/12/08 13:47:47 [notice] 1#1: start worker process 27
+2023/12/08 13:47:47 [notice] 1#1: start worker process 28
+2023/12/08 13:47:47 [notice] 1#1: start worker process 29
+2023/12/08 13:47:54 [error] 22#22: *1 open() "/usr/share/nginx/html/assets/effects/default.jpg" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /assets/effects/default.jpg HTTP/1.1", host: "localhost"
+2023/12/08 13:49:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 13:49:27 [notice] 22#22: gracefully shutting down
+2023/12/08 13:49:27 [notice] 23#23: gracefully shutting down
+2023/12/08 13:49:27 [notice] 25#25: gracefully shutting down
+2023/12/08 13:49:27 [notice] 25#25: exiting
+2023/12/08 13:49:27 [notice] 27#27: gracefully shutting down
+2023/12/08 13:49:27 [notice] 29#29: gracefully shutting down
+2023/12/08 13:49:27 [notice] 29#29: exiting
+2023/12/08 13:49:27 [notice] 28#28: gracefully shutting down
+2023/12/08 13:49:27 [notice] 28#28: exiting
+2023/12/08 13:49:27 [notice] 26#26: gracefully shutting down
+2023/12/08 13:49:27 [notice] 26#26: exiting
+2023/12/08 13:49:27 [notice] 24#24: gracefully shutting down
+2023/12/08 13:49:27 [notice] 24#24: exiting
+2023/12/08 13:49:27 [notice] 22#22: exiting
+2023/12/08 13:49:27 [notice] 23#23: exiting
+2023/12/08 13:49:27 [notice] 25#25: exit
+2023/12/08 13:49:27 [notice] 27#27: exiting
+2023/12/08 13:49:27 [notice] 29#29: exit
+2023/12/08 13:49:27 [notice] 28#28: exit
+2023/12/08 13:49:27 [notice] 26#26: exit
+2023/12/08 13:49:27 [notice] 24#24: exit
+2023/12/08 13:49:27 [notice] 22#22: exit
+2023/12/08 13:49:27 [notice] 23#23: exit
+2023/12/08 13:49:27 [notice] 27#27: exit
+2023/12/08 13:49:27 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/08 13:49:27 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 13:49:27 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 13:49:27 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 13:49:27 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 13:49:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:49:27 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/08 13:49:27 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 13:49:27 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 13:49:27 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 13:49:27 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 13:49:27 [notice] 1#1: exit
+2023/12/08 13:49:31 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/08 13:49:31 [notice] 1#1: using the "epoll" event method
+2023/12/08 13:49:31 [notice] 1#1: nginx/1.25.3
+2023/12/08 13:49:31 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 13:49:31 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 13:49:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 13:49:31 [notice] 1#1: start worker processes
+2023/12/08 13:49:31 [notice] 1#1: start worker process 22
+2023/12/08 13:49:31 [notice] 1#1: start worker process 23
+2023/12/08 13:49:31 [notice] 1#1: start worker process 24
+2023/12/08 13:49:31 [notice] 1#1: start worker process 25
+2023/12/08 13:49:31 [notice] 1#1: start worker process 26
+2023/12/08 13:49:31 [notice] 1#1: start worker process 27
+2023/12/08 13:49:31 [notice] 1#1: start worker process 28
+2023/12/08 13:49:31 [notice] 1#1: start worker process 29
+2023/12/08 13:49:35 [error] 22#22: *1 open() "/usr/share/nginx/html/assets/effects/default.jpg" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /assets/effects/default.jpg HTTP/1.1", host: "localhost"
+2023/12/08 13:54:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 13:54:05 [notice] 22#22: gracefully shutting down
+2023/12/08 13:54:05 [notice] 23#23: gracefully shutting down
+2023/12/08 13:54:05 [notice] 24#24: gracefully shutting down
+2023/12/08 13:54:05 [notice] 25#25: gracefully shutting down
+2023/12/08 13:54:05 [notice] 26#26: gracefully shutting down
+2023/12/08 13:54:05 [notice] 26#26: exiting
+2023/12/08 13:54:05 [notice] 27#27: gracefully shutting down
+2023/12/08 13:54:05 [notice] 27#27: exiting
+2023/12/08 13:54:05 [notice] 29#29: gracefully shutting down
+2023/12/08 13:54:05 [notice] 29#29: exiting
+2023/12/08 13:54:05 [notice] 28#28: gracefully shutting down
+2023/12/08 13:54:05 [notice] 28#28: exiting
+2023/12/08 13:54:05 [notice] 22#22: exiting
+2023/12/08 13:54:05 [notice] 23#23: exiting
+2023/12/08 13:54:05 [notice] 24#24: exiting
+2023/12/08 13:54:05 [notice] 25#25: exiting
+2023/12/08 13:54:05 [notice] 26#26: exit
+2023/12/08 13:54:05 [notice] 27#27: exit
+2023/12/08 13:54:05 [notice] 29#29: exit
+2023/12/08 13:54:05 [notice] 28#28: exit
+2023/12/08 13:54:05 [notice] 22#22: exit
+2023/12/08 13:54:05 [notice] 23#23: exit
+2023/12/08 13:54:05 [notice] 24#24: exit
+2023/12/08 13:54:05 [notice] 25#25: exit
+2023/12/08 13:54:05 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/08 13:54:05 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 13:54:05 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 13:54:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:54:05 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/08 13:54:05 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 13:54:05 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 13:54:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:54:05 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/08 13:54:05 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 13:54:05 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 13:54:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:54:05 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/08 13:54:05 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 13:54:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:54:05 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/08 13:54:05 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 13:54:05 [notice] 1#1: exit
+2023/12/08 13:54:06 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/08 13:54:06 [notice] 1#1: using the "epoll" event method
+2023/12/08 13:54:06 [notice] 1#1: nginx/1.25.3
+2023/12/08 13:54:06 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 13:54:06 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 13:54:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 13:54:06 [notice] 1#1: start worker processes
+2023/12/08 13:54:06 [notice] 1#1: start worker process 22
+2023/12/08 13:54:06 [notice] 1#1: start worker process 23
+2023/12/08 13:54:06 [notice] 1#1: start worker process 24
+2023/12/08 13:54:06 [notice] 1#1: start worker process 25
+2023/12/08 13:54:06 [notice] 1#1: start worker process 26
+2023/12/08 13:54:06 [notice] 1#1: start worker process 27
+2023/12/08 13:54:06 [notice] 1#1: start worker process 28
+2023/12/08 13:54:06 [notice] 1#1: start worker process 29
+2023/12/08 13:54:09 [error] 22#22: *1 open() "/usr/share/nginx/html/assets/effects/default.jpg" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /assets/effects/default.jpg HTTP/1.1", host: "localhost"
+2023/12/08 13:54:10 [error] 22#22: *1 open() "/usr/share/nginx/html/assets/effects/default.jpg" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /assets/effects/default.jpg HTTP/1.1", host: "localhost"
+2023/12/08 13:55:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 13:55:59 [notice] 22#22: gracefully shutting down
+2023/12/08 13:55:59 [notice] 23#23: gracefully shutting down
+2023/12/08 13:55:59 [notice] 24#24: gracefully shutting down
+2023/12/08 13:55:59 [notice] 25#25: gracefully shutting down
+2023/12/08 13:55:59 [notice] 25#25: exiting
+2023/12/08 13:55:59 [notice] 28#28: gracefully shutting down
+2023/12/08 13:55:59 [notice] 27#27: gracefully shutting down
+2023/12/08 13:55:59 [notice] 27#27: exiting
+2023/12/08 13:55:59 [notice] 29#29: gracefully shutting down
+2023/12/08 13:55:59 [notice] 29#29: exiting
+2023/12/08 13:55:59 [notice] 26#26: gracefully shutting down
+2023/12/08 13:55:59 [notice] 22#22: exiting
+2023/12/08 13:55:59 [notice] 23#23: exiting
+2023/12/08 13:55:59 [notice] 24#24: exiting
+2023/12/08 13:55:59 [notice] 25#25: exit
+2023/12/08 13:55:59 [notice] 28#28: exiting
+2023/12/08 13:55:59 [notice] 27#27: exit
+2023/12/08 13:55:59 [notice] 29#29: exit
+2023/12/08 13:55:59 [notice] 26#26: exiting
+2023/12/08 13:55:59 [notice] 22#22: exit
+2023/12/08 13:55:59 [notice] 23#23: exit
+2023/12/08 13:55:59 [notice] 24#24: exit
+2023/12/08 13:55:59 [notice] 28#28: exit
+2023/12/08 13:55:59 [notice] 26#26: exit
+2023/12/08 13:55:59 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/08 13:55:59 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 13:55:59 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 13:55:59 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 13:55:59 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 13:55:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:55:59 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/08 13:55:59 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 13:55:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:55:59 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/08 13:55:59 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 13:55:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:55:59 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/08 13:55:59 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 13:55:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:55:59 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/08 13:55:59 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 13:55:59 [notice] 1#1: exit
+2023/12/08 13:56:00 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/08 13:56:00 [notice] 1#1: using the "epoll" event method
+2023/12/08 13:56:00 [notice] 1#1: nginx/1.25.3
+2023/12/08 13:56:00 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 13:56:00 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 13:56:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 13:56:00 [notice] 1#1: start worker processes
+2023/12/08 13:56:00 [notice] 1#1: start worker process 22
+2023/12/08 13:56:00 [notice] 1#1: start worker process 23
+2023/12/08 13:56:00 [notice] 1#1: start worker process 24
+2023/12/08 13:56:00 [notice] 1#1: start worker process 25
+2023/12/08 13:56:00 [notice] 1#1: start worker process 26
+2023/12/08 13:56:00 [notice] 1#1: start worker process 27
+2023/12/08 13:56:00 [notice] 1#1: start worker process 28
+2023/12/08 13:56:00 [notice] 1#1: start worker process 29
+2023/12/08 13:56:19 [error] 23#23: *2 open() "/usr/share/nginx/html/assets/effects/default.jpg" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /assets/effects/default.jpg HTTP/1.1", host: "localhost"
+2023/12/08 13:56:19 [error] 23#23: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/assets/effects/default.jpg"
+2023/12/08 13:58:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 13:58:43 [notice] 23#23: gracefully shutting down
+2023/12/08 13:58:43 [notice] 25#25: gracefully shutting down
+2023/12/08 13:58:43 [notice] 27#27: gracefully shutting down
+2023/12/08 13:58:43 [notice] 26#26: gracefully shutting down
+2023/12/08 13:58:43 [notice] 22#22: gracefully shutting down
+2023/12/08 13:58:43 [notice] 24#24: gracefully shutting down
+2023/12/08 13:58:43 [notice] 24#24: exiting
+2023/12/08 13:58:43 [notice] 29#29: gracefully shutting down
+2023/12/08 13:58:43 [notice] 29#29: exiting
+2023/12/08 13:58:43 [notice] 28#28: gracefully shutting down
+2023/12/08 13:58:43 [notice] 28#28: exiting
+2023/12/08 13:58:43 [notice] 23#23: exiting
+2023/12/08 13:58:43 [notice] 25#25: exiting
+2023/12/08 13:58:43 [notice] 27#27: exiting
+2023/12/08 13:58:43 [notice] 26#26: exiting
+2023/12/08 13:58:43 [notice] 22#22: exiting
+2023/12/08 13:58:43 [notice] 24#24: exit
+2023/12/08 13:58:43 [notice] 29#29: exit
+2023/12/08 13:58:43 [notice] 28#28: exit
+2023/12/08 13:58:43 [notice] 23#23: exit
+2023/12/08 13:58:43 [notice] 25#25: exit
+2023/12/08 13:58:43 [notice] 27#27: exit
+2023/12/08 13:58:43 [notice] 26#26: exit
+2023/12/08 13:58:43 [notice] 22#22: exit
+2023/12/08 13:58:43 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/08 13:58:43 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 13:58:43 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 13:58:43 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 13:58:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:58:43 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/08 13:58:43 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 13:58:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:58:43 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/08 13:58:43 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 13:58:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:58:43 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/08 13:58:43 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 13:58:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:58:44 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/08 13:58:44 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 13:58:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 13:58:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/08 13:58:44 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 13:58:44 [notice] 1#1: exit
+2023/12/08 13:58:44 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/08 13:58:44 [notice] 1#1: using the "epoll" event method
+2023/12/08 13:58:44 [notice] 1#1: nginx/1.25.3
+2023/12/08 13:58:44 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 13:58:44 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 13:58:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 13:58:44 [notice] 1#1: start worker processes
+2023/12/08 13:58:44 [notice] 1#1: start worker process 22
+2023/12/08 13:58:44 [notice] 1#1: start worker process 23
+2023/12/08 13:58:44 [notice] 1#1: start worker process 24
+2023/12/08 13:58:44 [notice] 1#1: start worker process 25
+2023/12/08 13:58:44 [notice] 1#1: start worker process 26
+2023/12/08 13:58:44 [notice] 1#1: start worker process 27
+2023/12/08 13:58:44 [notice] 1#1: start worker process 28
+2023/12/08 13:58:44 [notice] 1#1: start worker process 29
+2023/12/08 13:58:53 [error] 22#22: *1 open() "/usr/share/nginx/html/effects/default.jpg" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /effects/default.jpg HTTP/1.1", host: "localhost"
+2023/12/08 14:01:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 14:01:55 [notice] 22#22: gracefully shutting down
+2023/12/08 14:01:55 [notice] 23#23: gracefully shutting down
+2023/12/08 14:01:55 [notice] 24#24: gracefully shutting down
+2023/12/08 14:01:55 [notice] 24#24: exiting
+2023/12/08 14:01:55 [notice] 25#25: gracefully shutting down
+2023/12/08 14:01:55 [notice] 25#25: exiting
+2023/12/08 14:01:55 [notice] 27#27: gracefully shutting down
+2023/12/08 14:01:55 [notice] 26#26: gracefully shutting down
+2023/12/08 14:01:55 [notice] 28#28: gracefully shutting down
+2023/12/08 14:01:55 [notice] 28#28: exiting
+2023/12/08 14:01:55 [notice] 29#29: gracefully shutting down
+2023/12/08 14:01:55 [notice] 29#29: exiting
+2023/12/08 14:01:55 [notice] 22#22: exiting
+2023/12/08 14:01:55 [notice] 23#23: exiting
+2023/12/08 14:01:55 [notice] 24#24: exit
+2023/12/08 14:01:55 [notice] 25#25: exit
+2023/12/08 14:01:55 [notice] 27#27: exiting
+2023/12/08 14:01:55 [notice] 26#26: exiting
+2023/12/08 14:01:55 [notice] 28#28: exit
+2023/12/08 14:01:55 [notice] 29#29: exit
+2023/12/08 14:01:55 [notice] 22#22: exit
+2023/12/08 14:01:55 [notice] 23#23: exit
+2023/12/08 14:01:55 [notice] 27#27: exit
+2023/12/08 14:01:55 [notice] 26#26: exit
+2023/12/08 14:01:56 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/08 14:01:56 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 14:01:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 14:01:56 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/08 14:01:56 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 14:01:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 14:01:56 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/08 14:01:56 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 14:01:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 14:01:56 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/08 14:01:56 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 14:01:56 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 14:01:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 14:01:56 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/08 14:01:56 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 14:01:56 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 14:01:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 14:01:56 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/08 14:01:56 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 14:01:56 [notice] 1#1: exit
+2023/12/08 14:01:57 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/08 14:01:57 [notice] 1#1: using the "epoll" event method
+2023/12/08 14:01:57 [notice] 1#1: nginx/1.25.3
+2023/12/08 14:01:57 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 14:01:57 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 14:01:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 14:01:57 [notice] 1#1: start worker processes
+2023/12/08 14:01:57 [notice] 1#1: start worker process 22
+2023/12/08 14:01:57 [notice] 1#1: start worker process 23
+2023/12/08 14:01:57 [notice] 1#1: start worker process 24
+2023/12/08 14:01:57 [notice] 1#1: start worker process 25
+2023/12/08 14:01:57 [notice] 1#1: start worker process 26
+2023/12/08 14:01:57 [notice] 1#1: start worker process 27
+2023/12/08 14:01:57 [notice] 1#1: start worker process 28
+2023/12/08 14:01:57 [notice] 1#1: start worker process 29
+2023/12/08 14:02:05 [error] 22#22: *1 open() "/usr/share/nginx/html/assets/effects/default.jpg" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /assets/effects/default.jpg HTTP/1.1", host: "localhost"
+2023/12/08 14:02:05 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/assets/effects/default.jpg"
+2023/12/08 14:04:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 14:04:05 [notice] 22#22: gracefully shutting down
+2023/12/08 14:04:05 [notice] 23#23: gracefully shutting down
+2023/12/08 14:04:05 [notice] 24#24: gracefully shutting down
+2023/12/08 14:04:05 [notice] 25#25: gracefully shutting down
+2023/12/08 14:04:05 [notice] 26#26: gracefully shutting down
+2023/12/08 14:04:05 [notice] 26#26: exiting
+2023/12/08 14:04:05 [notice] 27#27: gracefully shutting down
+2023/12/08 14:04:05 [notice] 27#27: exiting
+2023/12/08 14:04:05 [notice] 28#28: gracefully shutting down
+2023/12/08 14:04:05 [notice] 28#28: exiting
+2023/12/08 14:04:05 [notice] 29#29: gracefully shutting down
+2023/12/08 14:04:05 [notice] 22#22: exiting
+2023/12/08 14:04:05 [notice] 23#23: exiting
+2023/12/08 14:04:05 [notice] 24#24: exiting
+2023/12/08 14:04:05 [notice] 25#25: exiting
+2023/12/08 14:04:05 [notice] 26#26: exit
+2023/12/08 14:04:05 [notice] 27#27: exit
+2023/12/08 14:04:05 [notice] 28#28: exit
+2023/12/08 14:04:05 [notice] 29#29: exiting
+2023/12/08 14:04:05 [notice] 22#22: exit
+2023/12/08 14:04:05 [notice] 23#23: exit
+2023/12/08 14:04:05 [notice] 24#24: exit
+2023/12/08 14:04:05 [notice] 25#25: exit
+2023/12/08 14:04:05 [notice] 29#29: exit
+2023/12/08 14:04:06 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/08 14:04:06 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 14:04:06 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 14:04:06 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 14:04:06 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 14:04:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 14:04:06 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/08 14:04:06 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/08 14:04:06 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 14:04:06 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 14:04:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 14:04:06 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/08 14:04:06 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/08 14:04:06 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 14:04:06 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 14:04:06 [notice] 1#1: exit
+2023/12/08 14:04:06 [notice] 1#1: using the "epoll" event method
+2023/12/08 14:04:06 [notice] 1#1: nginx/1.25.3
+2023/12/08 14:04:06 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 14:04:06 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 14:04:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 14:04:06 [notice] 1#1: start worker processes
+2023/12/08 14:04:06 [notice] 1#1: start worker process 22
+2023/12/08 14:04:06 [notice] 1#1: start worker process 23
+2023/12/08 14:04:06 [notice] 1#1: start worker process 24
+2023/12/08 14:04:06 [notice] 1#1: start worker process 25
+2023/12/08 14:04:06 [notice] 1#1: start worker process 26
+2023/12/08 14:04:06 [notice] 1#1: start worker process 27
+2023/12/08 14:04:06 [notice] 1#1: start worker process 28
+2023/12/08 14:04:06 [notice] 1#1: start worker process 29
+2023/12/08 14:22:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 14:22:12 [notice] 22#22: gracefully shutting down
+2023/12/08 14:22:12 [notice] 23#23: gracefully shutting down
+2023/12/08 14:22:12 [notice] 26#26: gracefully shutting down
+2023/12/08 14:22:12 [notice] 25#25: gracefully shutting down
+2023/12/08 14:22:12 [notice] 29#29: gracefully shutting down
+2023/12/08 14:22:12 [notice] 29#29: exiting
+2023/12/08 14:22:12 [notice] 27#27: gracefully shutting down
+2023/12/08 14:22:12 [notice] 24#24: gracefully shutting down
+2023/12/08 14:22:12 [notice] 28#28: gracefully shutting down
+2023/12/08 14:22:12 [notice] 22#22: exiting
+2023/12/08 14:22:12 [notice] 23#23: exiting
+2023/12/08 14:22:12 [notice] 26#26: exiting
+2023/12/08 14:22:12 [notice] 25#25: exiting
+2023/12/08 14:22:12 [notice] 29#29: exit
+2023/12/08 14:22:12 [notice] 27#27: exiting
+2023/12/08 14:22:12 [notice] 24#24: exiting
+2023/12/08 14:22:12 [notice] 28#28: exiting
+2023/12/08 14:22:12 [notice] 22#22: exit
+2023/12/08 14:22:12 [notice] 23#23: exit
+2023/12/08 14:22:12 [notice] 26#26: exit
+2023/12/08 14:22:12 [notice] 25#25: exit
+2023/12/08 14:22:12 [notice] 27#27: exit
+2023/12/08 14:22:12 [notice] 24#24: exit
+2023/12/08 14:22:12 [notice] 28#28: exit
+2023/12/08 14:22:12 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/08 14:22:12 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 14:22:12 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 14:22:12 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 14:22:12 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 14:22:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 14:22:12 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/08 14:22:12 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 14:22:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 14:22:12 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/08 14:22:12 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 14:22:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 14:22:12 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/08 14:22:12 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 14:22:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 14:22:12 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/08 14:22:12 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 14:22:12 [notice] 1#1: exit
+2023/12/08 15:36:31 [notice] 1#1: using the "epoll" event method
+2023/12/08 15:36:31 [notice] 1#1: nginx/1.25.3
+2023/12/08 15:36:31 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 15:36:31 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 15:36:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 15:36:31 [notice] 1#1: start worker processes
+2023/12/08 15:36:31 [notice] 1#1: start worker process 22
+2023/12/08 15:36:31 [notice] 1#1: start worker process 23
+2023/12/08 15:36:31 [notice] 1#1: start worker process 24
+2023/12/08 15:36:31 [notice] 1#1: start worker process 25
+2023/12/08 15:36:31 [notice] 1#1: start worker process 26
+2023/12/08 15:36:31 [notice] 1#1: start worker process 27
+2023/12/08 15:36:31 [notice] 1#1: start worker process 28
+2023/12/08 15:36:31 [notice] 1#1: start worker process 29
+2023/12/08 16:25:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 16:25:56 [notice] 22#22: gracefully shutting down
+2023/12/08 16:25:56 [notice] 22#22: exiting
+2023/12/08 16:25:56 [notice] 23#23: gracefully shutting down
+2023/12/08 16:25:56 [notice] 23#23: exiting
+2023/12/08 16:25:56 [notice] 24#24: gracefully shutting down
+2023/12/08 16:25:56 [notice] 26#26: gracefully shutting down
+2023/12/08 16:25:56 [notice] 25#25: gracefully shutting down
+2023/12/08 16:25:56 [notice] 25#25: exiting
+2023/12/08 16:25:56 [notice] 29#29: gracefully shutting down
+2023/12/08 16:25:56 [notice] 27#27: gracefully shutting down
+2023/12/08 16:25:56 [notice] 28#28: gracefully shutting down
+2023/12/08 16:25:56 [notice] 22#22: exit
+2023/12/08 16:25:56 [notice] 23#23: exit
+2023/12/08 16:25:56 [notice] 24#24: exiting
+2023/12/08 16:25:56 [notice] 26#26: exiting
+2023/12/08 16:25:56 [notice] 25#25: exit
+2023/12/08 16:25:56 [notice] 29#29: exiting
+2023/12/08 16:25:56 [notice] 27#27: exiting
+2023/12/08 16:25:56 [notice] 28#28: exiting
+2023/12/08 16:25:56 [notice] 24#24: exit
+2023/12/08 16:25:56 [notice] 26#26: exit
+2023/12/08 16:25:56 [notice] 29#29: exit
+2023/12/08 16:25:56 [notice] 27#27: exit
+2023/12/08 16:25:56 [notice] 28#28: exit
+2023/12/08 16:25:57 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/08 16:25:57 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 16:25:57 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 16:25:57 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 16:25:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 16:25:57 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/08 16:25:57 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/08 16:25:57 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 16:25:57 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 16:25:57 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 16:25:57 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 16:25:57 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 16:25:57 [notice] 1#1: exit
+2023/12/08 16:25:57 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/default.conf:18
+2023/12/08 16:28:02 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/default.conf:18
+2023/12/08 16:34:47 [notice] 1#1: using the "epoll" event method
+2023/12/08 16:34:47 [notice] 1#1: nginx/1.25.3
+2023/12/08 16:34:47 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 16:34:47 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 16:34:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 16:34:47 [notice] 1#1: start worker processes
+2023/12/08 16:34:47 [notice] 1#1: start worker process 23
+2023/12/08 16:34:47 [notice] 1#1: start worker process 24
+2023/12/08 16:34:47 [notice] 1#1: start worker process 25
+2023/12/08 16:34:47 [notice] 1#1: start worker process 26
+2023/12/08 16:34:47 [notice] 1#1: start worker process 27
+2023/12/08 16:34:47 [notice] 1#1: start worker process 28
+2023/12/08 16:34:47 [notice] 1#1: start worker process 29
+2023/12/08 16:34:47 [notice] 1#1: start worker process 30
+2023/12/08 16:36:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 16:36:08 [notice] 23#23: gracefully shutting down
+2023/12/08 16:36:08 [notice] 25#25: gracefully shutting down
+2023/12/08 16:36:08 [notice] 29#29: gracefully shutting down
+2023/12/08 16:36:08 [notice] 29#29: exiting
+2023/12/08 16:36:08 [notice] 26#26: gracefully shutting down
+2023/12/08 16:36:08 [notice] 30#30: gracefully shutting down
+2023/12/08 16:36:08 [notice] 24#24: gracefully shutting down
+2023/12/08 16:36:08 [notice] 27#27: gracefully shutting down
+2023/12/08 16:36:08 [notice] 28#28: gracefully shutting down
+2023/12/08 16:36:08 [notice] 23#23: exiting
+2023/12/08 16:36:08 [notice] 25#25: exiting
+2023/12/08 16:36:08 [notice] 29#29: exit
+2023/12/08 16:36:08 [notice] 26#26: exiting
+2023/12/08 16:36:08 [notice] 30#30: exiting
+2023/12/08 16:36:08 [notice] 24#24: exiting
+2023/12/08 16:36:08 [notice] 27#27: exiting
+2023/12/08 16:36:08 [notice] 28#28: exiting
+2023/12/08 16:36:08 [notice] 23#23: exit
+2023/12/08 16:36:08 [notice] 25#25: exit
+2023/12/08 16:36:08 [notice] 26#26: exit
+2023/12/08 16:36:08 [notice] 30#30: exit
+2023/12/08 16:36:08 [notice] 24#24: exit
+2023/12/08 16:36:08 [notice] 27#27: exit
+2023/12/08 16:36:08 [notice] 28#28: exit
+2023/12/08 16:36:08 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/08 16:36:08 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 16:36:08 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 16:36:08 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/08 16:36:08 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 16:36:08 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 16:36:08 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 16:36:08 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 16:36:08 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/08 16:36:08 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 16:36:08 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 16:36:08 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 16:36:08 [notice] 1#1: worker process 30 exited with code 0
+2023/12/08 16:36:08 [notice] 1#1: exit
+2023/12/08 16:36:09 [notice] 1#1: using the "epoll" event method
+2023/12/08 16:36:09 [notice] 1#1: nginx/1.25.3
+2023/12/08 16:36:09 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 16:36:09 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 16:36:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 16:36:09 [notice] 1#1: start worker processes
+2023/12/08 16:36:09 [notice] 1#1: start worker process 22
+2023/12/08 16:36:09 [notice] 1#1: start worker process 23
+2023/12/08 16:36:09 [notice] 1#1: start worker process 24
+2023/12/08 16:36:09 [notice] 1#1: start worker process 25
+2023/12/08 16:36:09 [notice] 1#1: start worker process 26
+2023/12/08 16:36:09 [notice] 1#1: start worker process 27
+2023/12/08 16:36:09 [notice] 1#1: start worker process 28
+2023/12/08 16:36:09 [notice] 1#1: start worker process 29
+2023/12/08 16:36:43 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/login HTTP/1.1", upstream: "http://172.19.0.4:8000/api/login", host: "localhost"
+2023/12/08 16:37:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 16:37:45 [notice] 22#22: gracefully shutting down
+2023/12/08 16:37:45 [notice] 22#22: exiting
+2023/12/08 16:37:45 [notice] 23#23: gracefully shutting down
+2023/12/08 16:37:45 [notice] 25#25: gracefully shutting down
+2023/12/08 16:37:45 [notice] 24#24: gracefully shutting down
+2023/12/08 16:37:45 [notice] 28#28: gracefully shutting down
+2023/12/08 16:37:45 [notice] 27#27: gracefully shutting down
+2023/12/08 16:37:45 [notice] 26#26: gracefully shutting down
+2023/12/08 16:37:45 [notice] 29#29: gracefully shutting down
+2023/12/08 16:37:45 [notice] 29#29: exiting
+2023/12/08 16:37:45 [notice] 22#22: exit
+2023/12/08 16:37:45 [notice] 23#23: exiting
+2023/12/08 16:37:45 [notice] 25#25: exiting
+2023/12/08 16:37:45 [notice] 24#24: exiting
+2023/12/08 16:37:45 [notice] 28#28: exiting
+2023/12/08 16:37:45 [notice] 27#27: exiting
+2023/12/08 16:37:45 [notice] 26#26: exiting
+2023/12/08 16:37:45 [notice] 29#29: exit
+2023/12/08 16:37:45 [notice] 23#23: exit
+2023/12/08 16:37:45 [notice] 25#25: exit
+2023/12/08 16:37:45 [notice] 24#24: exit
+2023/12/08 16:37:45 [notice] 28#28: exit
+2023/12/08 16:37:45 [notice] 27#27: exit
+2023/12/08 16:37:45 [notice] 26#26: exit
+2023/12/08 16:37:45 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/08 16:37:45 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 16:37:45 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 16:37:45 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 16:37:45 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 16:37:45 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 16:37:45 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 16:37:45 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/08 16:37:45 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/08 16:37:45 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 16:37:45 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 16:37:45 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 16:37:45 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/08 16:37:45 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 16:37:45 [notice] 1#1: exit
+2023/12/08 16:37:46 [notice] 1#1: using the "epoll" event method
+2023/12/08 16:37:46 [notice] 1#1: nginx/1.25.3
+2023/12/08 16:37:46 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 16:37:46 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 16:37:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 16:37:46 [notice] 1#1: start worker processes
+2023/12/08 16:37:46 [notice] 1#1: start worker process 22
+2023/12/08 16:37:46 [notice] 1#1: start worker process 23
+2023/12/08 16:37:46 [notice] 1#1: start worker process 24
+2023/12/08 16:37:46 [notice] 1#1: start worker process 25
+2023/12/08 16:37:46 [notice] 1#1: start worker process 26
+2023/12/08 16:37:46 [notice] 1#1: start worker process 27
+2023/12/08 16:37:46 [notice] 1#1: start worker process 28
+2023/12/08 16:37:46 [notice] 1#1: start worker process 29
+2023/12/08 16:37:53 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/login HTTP/1.1", upstream: "http://172.19.0.4:8000/login", host: "localhost"
+2023/12/08 16:39:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 16:39:12 [notice] 22#22: gracefully shutting down
+2023/12/08 16:39:12 [notice] 23#23: gracefully shutting down
+2023/12/08 16:39:12 [notice] 24#24: gracefully shutting down
+2023/12/08 16:39:12 [notice] 25#25: gracefully shutting down
+2023/12/08 16:39:12 [notice] 26#26: gracefully shutting down
+2023/12/08 16:39:12 [notice] 29#29: gracefully shutting down
+2023/12/08 16:39:12 [notice] 29#29: exiting
+2023/12/08 16:39:12 [notice] 28#28: gracefully shutting down
+2023/12/08 16:39:12 [notice] 27#27: gracefully shutting down
+2023/12/08 16:39:12 [notice] 22#22: exiting
+2023/12/08 16:39:12 [notice] 23#23: exiting
+2023/12/08 16:39:12 [notice] 24#24: exiting
+2023/12/08 16:39:12 [notice] 25#25: exiting
+2023/12/08 16:39:12 [notice] 26#26: exiting
+2023/12/08 16:39:12 [notice] 29#29: exit
+2023/12/08 16:39:12 [notice] 28#28: exiting
+2023/12/08 16:39:12 [notice] 27#27: exiting
+2023/12/08 16:39:12 [notice] 22#22: exit
+2023/12/08 16:39:12 [notice] 23#23: exit
+2023/12/08 16:39:12 [notice] 24#24: exit
+2023/12/08 16:39:12 [notice] 25#25: exit
+2023/12/08 16:39:12 [notice] 26#26: exit
+2023/12/08 16:39:12 [notice] 28#28: exit
+2023/12/08 16:39:12 [notice] 27#27: exit
+2023/12/08 16:39:12 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/08 16:39:12 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 16:39:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 16:39:12 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/08 16:39:12 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 16:39:12 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 16:39:12 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 16:39:12 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 16:39:12 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 16:39:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 16:39:12 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/08 16:39:12 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/08 16:39:12 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 16:39:12 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 16:39:12 [notice] 1#1: exit
+2023/12/08 16:39:13 [notice] 1#1: using the "epoll" event method
+2023/12/08 16:39:13 [notice] 1#1: nginx/1.25.3
+2023/12/08 16:39:13 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 16:39:13 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 16:39:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 16:39:13 [notice] 1#1: start worker processes
+2023/12/08 16:39:13 [notice] 1#1: start worker process 22
+2023/12/08 16:39:13 [notice] 1#1: start worker process 23
+2023/12/08 16:39:13 [notice] 1#1: start worker process 24
+2023/12/08 16:39:13 [notice] 1#1: start worker process 25
+2023/12/08 16:39:13 [notice] 1#1: start worker process 26
+2023/12/08 16:39:13 [notice] 1#1: start worker process 27
+2023/12/08 16:39:13 [notice] 1#1: start worker process 28
+2023/12/08 16:39:13 [notice] 1#1: start worker process 29
+2023/12/08 16:42:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 16:42:21 [notice] 22#22: gracefully shutting down
+2023/12/08 16:42:21 [notice] 24#24: gracefully shutting down
+2023/12/08 16:42:21 [notice] 24#24: exiting
+2023/12/08 16:42:21 [notice] 25#25: gracefully shutting down
+2023/12/08 16:42:21 [notice] 26#26: gracefully shutting down
+2023/12/08 16:42:21 [notice] 27#27: gracefully shutting down
+2023/12/08 16:42:21 [notice] 27#27: exiting
+2023/12/08 16:42:21 [notice] 28#28: gracefully shutting down
+2023/12/08 16:42:21 [notice] 29#29: gracefully shutting down
+2023/12/08 16:42:21 [notice] 23#23: gracefully shutting down
+2023/12/08 16:42:21 [notice] 22#22: exiting
+2023/12/08 16:42:21 [notice] 24#24: exit
+2023/12/08 16:42:21 [notice] 25#25: exiting
+2023/12/08 16:42:21 [notice] 26#26: exiting
+2023/12/08 16:42:21 [notice] 27#27: exit
+2023/12/08 16:42:21 [notice] 28#28: exiting
+2023/12/08 16:42:21 [notice] 29#29: exiting
+2023/12/08 16:42:21 [notice] 23#23: exiting
+2023/12/08 16:42:21 [notice] 22#22: exit
+2023/12/08 16:42:21 [notice] 25#25: exit
+2023/12/08 16:42:21 [notice] 26#26: exit
+2023/12/08 16:42:21 [notice] 28#28: exit
+2023/12/08 16:42:21 [notice] 29#29: exit
+2023/12/08 16:42:21 [notice] 23#23: exit
+2023/12/08 16:42:21 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/08 16:42:21 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 16:42:21 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 16:42:21 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 16:42:21 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 16:42:21 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 16:42:21 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 16:42:21 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/08 16:42:21 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/08 16:42:21 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 16:42:21 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 16:42:21 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/08 16:42:21 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 16:42:21 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 16:42:21 [notice] 1#1: exit
+2023/12/08 16:42:22 [notice] 1#1: using the "epoll" event method
+2023/12/08 16:42:22 [notice] 1#1: nginx/1.25.3
+2023/12/08 16:42:22 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/08 16:42:22 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/08 16:42:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/08 16:42:22 [notice] 1#1: start worker processes
+2023/12/08 16:42:22 [notice] 1#1: start worker process 22
+2023/12/08 16:42:22 [notice] 1#1: start worker process 23
+2023/12/08 16:42:22 [notice] 1#1: start worker process 24
+2023/12/08 16:42:22 [notice] 1#1: start worker process 25
+2023/12/08 16:42:22 [notice] 1#1: start worker process 26
+2023/12/08 16:42:22 [notice] 1#1: start worker process 27
+2023/12/08 16:42:22 [notice] 1#1: start worker process 28
+2023/12/08 16:42:22 [notice] 1#1: start worker process 29
+2023/12/08 16:42:34 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/login HTTP/1.1", upstream: "http://172.19.0.4:8000/api/login", host: "localhost"
+2023/12/08 16:49:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/08 16:49:54 [notice] 24#24: gracefully shutting down
+2023/12/08 16:49:54 [notice] 27#27: gracefully shutting down
+2023/12/08 16:49:54 [notice] 26#26: gracefully shutting down
+2023/12/08 16:49:54 [notice] 29#29: gracefully shutting down
+2023/12/08 16:49:54 [notice] 29#29: exiting
+2023/12/08 16:49:54 [notice] 25#25: gracefully shutting down
+2023/12/08 16:49:54 [notice] 22#22: gracefully shutting down
+2023/12/08 16:49:54 [notice] 28#28: gracefully shutting down
+2023/12/08 16:49:54 [notice] 28#28: exiting
+2023/12/08 16:49:54 [notice] 24#24: exiting
+2023/12/08 16:49:54 [notice] 23#23: gracefully shutting down
+2023/12/08 16:49:54 [notice] 27#27: exiting
+2023/12/08 16:49:54 [notice] 26#26: exiting
+2023/12/08 16:49:54 [notice] 29#29: exit
+2023/12/08 16:49:54 [notice] 25#25: exiting
+2023/12/08 16:49:54 [notice] 22#22: exiting
+2023/12/08 16:49:54 [notice] 28#28: exit
+2023/12/08 16:49:54 [notice] 24#24: exit
+2023/12/08 16:49:54 [notice] 23#23: exiting
+2023/12/08 16:49:54 [notice] 27#27: exit
+2023/12/08 16:49:54 [notice] 26#26: exit
+2023/12/08 16:49:54 [notice] 25#25: exit
+2023/12/08 16:49:54 [notice] 22#22: exit
+2023/12/08 16:49:54 [notice] 23#23: exit
+2023/12/08 16:49:54 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/08 16:49:54 [notice] 1#1: worker process 22 exited with code 0
+2023/12/08 16:49:54 [notice] 1#1: worker process 28 exited with code 0
+2023/12/08 16:49:54 [notice] 1#1: worker process 29 exited with code 0
+2023/12/08 16:49:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 16:49:54 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/08 16:49:54 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/08 16:49:54 [notice] 1#1: worker process 24 exited with code 0
+2023/12/08 16:49:54 [notice] 1#1: worker process 25 exited with code 0
+2023/12/08 16:49:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 16:49:54 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/08 16:49:54 [notice] 1#1: worker process 23 exited with code 0
+2023/12/08 16:49:54 [notice] 1#1: worker process 26 exited with code 0
+2023/12/08 16:49:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/08 16:49:54 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/08 16:49:54 [notice] 1#1: worker process 27 exited with code 0
+2023/12/08 16:49:54 [notice] 1#1: exit
+2023/12/09 03:59:30 [notice] 1#1: using the "epoll" event method
+2023/12/09 03:59:30 [notice] 1#1: nginx/1.25.3
+2023/12/09 03:59:30 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/09 03:59:30 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/09 03:59:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/09 03:59:30 [notice] 1#1: start worker processes
+2023/12/09 03:59:30 [notice] 1#1: start worker process 22
+2023/12/09 03:59:30 [notice] 1#1: start worker process 23
+2023/12/09 03:59:30 [notice] 1#1: start worker process 24
+2023/12/09 03:59:30 [notice] 1#1: start worker process 25
+2023/12/09 03:59:30 [notice] 1#1: start worker process 26
+2023/12/09 03:59:30 [notice] 1#1: start worker process 27
+2023/12/09 03:59:30 [notice] 1#1: start worker process 28
+2023/12/09 03:59:30 [notice] 1#1: start worker process 29
+2023/12/10 03:51:58 [notice] 1#1: using the "epoll" event method
+2023/12/10 03:51:58 [notice] 1#1: nginx/1.25.3
+2023/12/10 03:51:58 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 03:51:58 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/10 03:51:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 03:51:58 [notice] 1#1: start worker processes
+2023/12/10 03:51:58 [notice] 1#1: start worker process 22
+2023/12/10 03:51:58 [notice] 1#1: start worker process 23
+2023/12/10 03:51:58 [notice] 1#1: start worker process 24
+2023/12/10 03:51:58 [notice] 1#1: start worker process 25
+2023/12/10 03:51:58 [notice] 1#1: start worker process 26
+2023/12/10 03:51:58 [notice] 1#1: start worker process 27
+2023/12/10 03:51:58 [notice] 1#1: start worker process 28
+2023/12/10 03:51:58 [notice] 1#1: start worker process 29
+2023/12/11 02:36:24 [notice] 1#1: using the "epoll" event method
+2023/12/11 02:36:24 [notice] 1#1: nginx/1.25.3
+2023/12/11 02:36:24 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/11 02:36:24 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/11 02:36:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/11 02:36:24 [notice] 1#1: start worker processes
+2023/12/11 02:36:24 [notice] 1#1: start worker process 22
+2023/12/11 02:36:24 [notice] 1#1: start worker process 23
+2023/12/11 02:36:24 [notice] 1#1: start worker process 24
+2023/12/11 02:36:24 [notice] 1#1: start worker process 25
+2023/12/11 02:36:24 [notice] 1#1: start worker process 26
+2023/12/11 02:36:24 [notice] 1#1: start worker process 27
+2023/12/11 02:36:24 [notice] 1#1: start worker process 28
+2023/12/11 02:36:24 [notice] 1#1: start worker process 29
+2023/12/11 07:37:02 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/userinfo HTTP/1.1", upstream: "http://172.19.0.4:8000/api/userinfo", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/11 07:37:12 [error] 23#23: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/userinfo HTTP/1.1", upstream: "http://172.19.0.4:8000/api/userinfo", host: "localhost"
+2023/12/11 07:37:54 [error] 24#24: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user HTTP/1.1", upstream: "http://172.19.0.4:8000/api/user", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/11 07:37:56 [error] 25#25: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user HTTP/1.1", upstream: "http://172.19.0.4:8000/api/user", host: "localhost"
+2023/12/11 07:38:30 [error] 26#26: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user HTTP/1.1", upstream: "http://172.19.0.4:8000/api/user", host: "localhost"
+2023/12/11 07:38:31 [error] 26#26: *9 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/api/user"
+2023/12/11 15:00:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/11 15:00:24 [notice] 22#22: gracefully shutting down
+2023/12/11 15:00:24 [notice] 27#27: gracefully shutting down
+2023/12/11 15:00:24 [notice] 24#24: gracefully shutting down
+2023/12/11 15:00:24 [notice] 23#23: gracefully shutting down
+2023/12/11 15:00:24 [notice] 23#23: exiting
+2023/12/11 15:00:24 [notice] 25#25: gracefully shutting down
+2023/12/11 15:00:24 [notice] 25#25: exiting
+2023/12/11 15:00:24 [notice] 26#26: gracefully shutting down
+2023/12/11 15:00:24 [notice] 28#28: gracefully shutting down
+2023/12/11 15:00:24 [notice] 29#29: gracefully shutting down
+2023/12/11 15:00:24 [notice] 27#27: exiting
+2023/12/11 15:00:24 [notice] 22#22: exiting
+2023/12/11 15:00:24 [notice] 24#24: exiting
+2023/12/11 15:00:24 [notice] 23#23: exit
+2023/12/11 15:00:24 [notice] 25#25: exit
+2023/12/11 15:00:24 [notice] 26#26: exiting
+2023/12/11 15:00:24 [notice] 28#28: exiting
+2023/12/11 15:00:24 [notice] 29#29: exiting
+2023/12/11 15:00:24 [notice] 27#27: exit
+2023/12/11 15:00:24 [notice] 22#22: exit
+2023/12/11 15:00:24 [notice] 24#24: exit
+2023/12/11 15:00:24 [notice] 26#26: exit
+2023/12/11 15:00:24 [notice] 28#28: exit
+2023/12/11 15:00:24 [notice] 29#29: exit
+2023/12/11 15:00:24 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/11 15:00:24 [notice] 1#1: worker process 23 exited with code 0
+2023/12/11 15:00:24 [notice] 1#1: worker process 26 exited with code 0
+2023/12/11 15:00:24 [notice] 1#1: worker process 28 exited with code 0
+2023/12/11 15:00:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/11 15:00:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/11 15:00:24 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/11 15:00:24 [notice] 1#1: worker process 25 exited with code 0
+2023/12/11 15:00:24 [notice] 1#1: worker process 27 exited with code 0
+2023/12/11 15:00:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/11 15:00:24 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/11 15:00:24 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/11 15:00:24 [notice] 1#1: worker process 22 exited with code 0
+2023/12/11 15:00:24 [notice] 1#1: worker process 24 exited with code 0
+2023/12/11 15:00:24 [notice] 1#1: worker process 29 exited with code 0
+2023/12/11 15:00:24 [notice] 1#1: exit
+2023/12/12 05:09:41 [notice] 1#1: using the "epoll" event method
+2023/12/12 05:09:41 [notice] 1#1: nginx/1.25.3
+2023/12/12 05:09:41 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/12 05:09:41 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/12 05:09:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/12 05:09:41 [notice] 1#1: start worker processes
+2023/12/12 05:09:41 [notice] 1#1: start worker process 22
+2023/12/12 05:09:41 [notice] 1#1: start worker process 23
+2023/12/12 05:09:41 [notice] 1#1: start worker process 24
+2023/12/12 05:09:41 [notice] 1#1: start worker process 25
+2023/12/12 05:09:41 [notice] 1#1: start worker process 26
+2023/12/12 05:09:41 [notice] 1#1: start worker process 27
+2023/12/12 05:09:41 [notice] 1#1: start worker process 28
+2023/12/12 05:09:41 [notice] 1#1: start worker process 29
+2023/12/13 02:10:41 [notice] 1#1: using the "epoll" event method
+2023/12/13 02:10:41 [notice] 1#1: nginx/1.25.3
+2023/12/13 02:10:41 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/13 02:10:41 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/13 02:10:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/13 02:10:41 [notice] 1#1: start worker processes
+2023/12/13 02:10:41 [notice] 1#1: start worker process 22
+2023/12/13 02:10:41 [notice] 1#1: start worker process 23
+2023/12/13 02:10:41 [notice] 1#1: start worker process 24
+2023/12/13 02:10:41 [notice] 1#1: start worker process 25
+2023/12/13 02:10:41 [notice] 1#1: start worker process 26
+2023/12/13 02:10:41 [notice] 1#1: start worker process 27
+2023/12/13 02:10:41 [notice] 1#1: start worker process 28
+2023/12/13 02:10:41 [notice] 1#1: start worker process 29
+2023/12/14 04:21:23 [notice] 1#1: using the "epoll" event method
+2023/12/14 04:21:23 [notice] 1#1: nginx/1.25.3
+2023/12/14 04:21:23 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/14 04:21:23 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/14 04:21:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/14 04:21:23 [notice] 1#1: start worker processes
+2023/12/14 04:21:23 [notice] 1#1: start worker process 22
+2023/12/14 04:21:23 [notice] 1#1: start worker process 23
+2023/12/14 04:21:23 [notice] 1#1: start worker process 24
+2023/12/14 04:21:23 [notice] 1#1: start worker process 25
+2023/12/14 04:21:23 [notice] 1#1: start worker process 26
+2023/12/14 04:21:23 [notice] 1#1: start worker process 27
+2023/12/14 04:21:23 [notice] 1#1: start worker process 28
+2023/12/14 04:21:23 [notice] 1#1: start worker process 29
+2023/12/15 04:25:02 [notice] 1#1: using the "epoll" event method
+2023/12/15 04:25:02 [notice] 1#1: nginx/1.25.3
+2023/12/15 04:25:02 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/15 04:25:02 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/15 04:25:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/15 04:25:02 [notice] 1#1: start worker processes
+2023/12/15 04:25:02 [notice] 1#1: start worker process 22
+2023/12/15 04:25:02 [notice] 1#1: start worker process 23
+2023/12/15 04:25:02 [notice] 1#1: start worker process 24
+2023/12/15 04:25:02 [notice] 1#1: start worker process 25
+2023/12/15 04:25:02 [notice] 1#1: start worker process 26
+2023/12/15 04:25:02 [notice] 1#1: start worker process 27
+2023/12/15 04:25:02 [notice] 1#1: start worker process 28
+2023/12/15 04:25:02 [notice] 1#1: start worker process 29
+2023/12/16 05:24:31 [notice] 1#1: using the "epoll" event method
+2023/12/16 05:24:31 [notice] 1#1: nginx/1.25.3
+2023/12/16 05:24:31 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/16 05:24:31 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/16 05:24:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/16 05:24:31 [notice] 1#1: start worker processes
+2023/12/16 05:24:31 [notice] 1#1: start worker process 22
+2023/12/16 05:24:31 [notice] 1#1: start worker process 23
+2023/12/16 05:24:31 [notice] 1#1: start worker process 24
+2023/12/16 05:24:31 [notice] 1#1: start worker process 25
+2023/12/16 05:24:31 [notice] 1#1: start worker process 26
+2023/12/16 05:24:31 [notice] 1#1: start worker process 27
+2023/12/16 05:24:31 [notice] 1#1: start worker process 28
+2023/12/16 05:24:31 [notice] 1#1: start worker process 29
+2023/12/16 15:04:39 [error] 23#23: *55 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.4:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/16 15:07:46 [error] 23#23: *57 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.4:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/16 15:11:53 [error] 23#23: *59 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.4:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/about"
+2023/12/16 16:17:53 [error] 23#23: *61 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.4:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/16 16:18:02 [error] 23#23: *63 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.4:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/about"
+2023/12/16 16:19:31 [error] 23#23: *65 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.4:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/17 02:35:14 [notice] 1#1: using the "epoll" event method
+2023/12/17 02:35:14 [notice] 1#1: nginx/1.25.3
+2023/12/17 02:35:14 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/17 02:35:14 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/17 02:35:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/17 02:35:14 [notice] 1#1: start worker processes
+2023/12/17 02:35:14 [notice] 1#1: start worker process 22
+2023/12/17 02:35:14 [notice] 1#1: start worker process 23
+2023/12/17 02:35:14 [notice] 1#1: start worker process 24
+2023/12/17 02:35:14 [notice] 1#1: start worker process 25
+2023/12/17 02:35:14 [notice] 1#1: start worker process 26
+2023/12/17 02:35:14 [notice] 1#1: start worker process 27
+2023/12/17 02:35:14 [notice] 1#1: start worker process 28
+2023/12/17 02:35:14 [notice] 1#1: start worker process 29
+2023/12/17 03:13:32 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.5:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/17 03:13:37 [error] 23#23: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.5:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/about"
+2023/12/17 03:15:09 [error] 24#24: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.5:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/17 04:45:54 [error] 26#26: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.5:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/17 04:45:58 [error] 25#25: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.5:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/17 05:12:36 [error] 27#27: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "POST /api/sendVerifyCode HTTP/1.1", upstream: "http://172.19.0.5:8000/api/sendVerifyCode", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/17 05:14:18 [error] 28#28: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "POST /api/sendVerifyCode HTTP/1.1", upstream: "http://172.19.0.5:8000/api/sendVerifyCode", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/17 07:52:52 [error] 25#25: *151 open() "/assets/avatars/default.jpg" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/default.jpg HTTP/1.1", host: "localhost"
+2023/12/17 07:52:52 [error] 25#25: *151 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/assets/avatars/default.jpg"
+2023/12/17 07:53:45 [error] 25#25: *151 "/assets/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/ HTTP/1.1", host: "localhost"
+2023/12/17 07:54:26 [error] 25#25: *151 open() "/assets/avatars/default.jpg" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/default.jpg HTTP/1.1", host: "localhost"
+2023/12/17 07:54:44 [error] 25#25: *151 open() "/assets/effects/default.jpg" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/effects/default.jpg HTTP/1.1", host: "localhost"
+2023/12/17 08:01:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/17 08:01:11 [notice] 22#22: gracefully shutting down
+2023/12/17 08:01:11 [notice] 23#23: gracefully shutting down
+2023/12/17 08:01:11 [notice] 24#24: gracefully shutting down
+2023/12/17 08:01:11 [notice] 26#26: gracefully shutting down
+2023/12/17 08:01:11 [notice] 26#26: exiting
+2023/12/17 08:01:11 [notice] 25#25: gracefully shutting down
+2023/12/17 08:01:11 [notice] 27#27: gracefully shutting down
+2023/12/17 08:01:11 [notice] 28#28: gracefully shutting down
+2023/12/17 08:01:11 [notice] 29#29: gracefully shutting down
+2023/12/17 08:01:11 [notice] 22#22: exiting
+2023/12/17 08:01:11 [notice] 23#23: exiting
+2023/12/17 08:01:11 [notice] 24#24: exiting
+2023/12/17 08:01:11 [notice] 26#26: exit
+2023/12/17 08:01:11 [notice] 25#25: exiting
+2023/12/17 08:01:11 [notice] 27#27: exiting
+2023/12/17 08:01:11 [notice] 28#28: exiting
+2023/12/17 08:01:11 [notice] 22#22: exit
+2023/12/17 08:01:11 [notice] 29#29: exiting
+2023/12/17 08:01:11 [notice] 23#23: exit
+2023/12/17 08:01:11 [notice] 24#24: exit
+2023/12/17 08:01:11 [notice] 25#25: exit
+2023/12/17 08:01:11 [notice] 27#27: exit
+2023/12/17 08:01:11 [notice] 28#28: exit
+2023/12/17 08:01:11 [notice] 29#29: exit
+2023/12/17 08:01:11 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/17 08:01:11 [notice] 1#1: worker process 22 exited with code 0
+2023/12/17 08:01:11 [notice] 1#1: worker process 23 exited with code 0
+2023/12/17 08:01:11 [notice] 1#1: worker process 26 exited with code 0
+2023/12/17 08:01:11 [notice] 1#1: worker process 28 exited with code 0
+2023/12/17 08:01:11 [notice] 1#1: worker process 29 exited with code 0
+2023/12/17 08:01:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 08:01:11 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/17 08:01:11 [notice] 1#1: worker process 24 exited with code 0
+2023/12/17 08:01:11 [notice] 1#1: worker process 27 exited with code 0
+2023/12/17 08:01:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 08:01:11 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/17 08:01:11 [notice] 1#1: worker process 25 exited with code 0
+2023/12/17 08:01:11 [notice] 1#1: exit
+2023/12/17 08:02:25 [notice] 1#1: using the "epoll" event method
+2023/12/17 08:02:25 [notice] 1#1: nginx/1.25.3
+2023/12/17 08:02:25 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/17 08:02:25 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/17 08:02:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/17 08:02:25 [notice] 1#1: start worker processes
+2023/12/17 08:02:25 [notice] 1#1: start worker process 22
+2023/12/17 08:02:25 [notice] 1#1: start worker process 23
+2023/12/17 08:02:25 [notice] 1#1: start worker process 24
+2023/12/17 08:02:25 [notice] 1#1: start worker process 25
+2023/12/17 08:02:25 [notice] 1#1: start worker process 26
+2023/12/17 08:02:25 [notice] 1#1: start worker process 27
+2023/12/17 08:02:25 [notice] 1#1: start worker process 28
+2023/12/17 08:02:25 [notice] 1#1: start worker process 29
+2023/12/17 08:02:32 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/assets/effects/default.jpg"
+2023/12/17 14:46:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/17 14:46:36 [notice] 23#23: gracefully shutting down
+2023/12/17 14:46:36 [notice] 24#24: gracefully shutting down
+2023/12/17 14:46:36 [notice] 22#22: gracefully shutting down
+2023/12/17 14:46:36 [notice] 27#27: gracefully shutting down
+2023/12/17 14:46:36 [notice] 28#28: gracefully shutting down
+2023/12/17 14:46:36 [notice] 28#28: exiting
+2023/12/17 14:46:36 [notice] 29#29: gracefully shutting down
+2023/12/17 14:46:36 [notice] 29#29: exiting
+2023/12/17 14:46:36 [notice] 26#26: gracefully shutting down
+2023/12/17 14:46:36 [notice] 25#25: gracefully shutting down
+2023/12/17 14:46:36 [notice] 23#23: exiting
+2023/12/17 14:46:36 [notice] 24#24: exiting
+2023/12/17 14:46:36 [notice] 22#22: exiting
+2023/12/17 14:46:36 [notice] 27#27: exiting
+2023/12/17 14:46:36 [notice] 28#28: exit
+2023/12/17 14:46:36 [notice] 29#29: exit
+2023/12/17 14:46:36 [notice] 26#26: exiting
+2023/12/17 14:46:36 [notice] 25#25: exiting
+2023/12/17 14:46:36 [notice] 23#23: exit
+2023/12/17 14:46:36 [notice] 24#24: exit
+2023/12/17 14:46:36 [notice] 22#22: exit
+2023/12/17 14:46:36 [notice] 27#27: exit
+2023/12/17 14:46:36 [notice] 26#26: exit
+2023/12/17 14:46:36 [notice] 25#25: exit
+2023/12/17 14:46:36 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/17 14:46:36 [notice] 1#1: worker process 26 exited with code 0
+2023/12/17 14:46:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 14:46:36 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/17 14:46:36 [notice] 1#1: worker process 22 exited with code 0
+2023/12/17 14:46:36 [notice] 1#1: worker process 27 exited with code 0
+2023/12/17 14:46:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 14:46:36 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/17 14:46:36 [notice] 1#1: worker process 23 exited with code 0
+2023/12/17 14:46:36 [notice] 1#1: worker process 29 exited with code 0
+2023/12/17 14:46:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 14:46:36 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/17 14:46:36 [notice] 1#1: worker process 28 exited with code 0
+2023/12/17 14:46:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 14:46:36 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/17 14:46:36 [notice] 1#1: worker process 24 exited with code 0
+2023/12/17 14:46:36 [notice] 1#1: worker process 25 exited with code 0
+2023/12/17 14:46:36 [notice] 1#1: exit
+2023/12/18 05:53:36 [emerg] 1#1: host not found in upstream "python" in /etc/nginx/conf.d/default.conf:18
+2023/12/18 05:53:51 [notice] 1#1: using the "epoll" event method
+2023/12/18 05:53:51 [notice] 1#1: nginx/1.25.3
+2023/12/18 05:53:51 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/18 05:53:51 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/18 05:53:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/18 05:53:51 [notice] 1#1: start worker processes
+2023/12/18 05:53:51 [notice] 1#1: start worker process 22
+2023/12/18 05:53:51 [notice] 1#1: start worker process 23
+2023/12/18 05:53:51 [notice] 1#1: start worker process 24
+2023/12/18 05:53:51 [notice] 1#1: start worker process 25
+2023/12/18 05:53:51 [notice] 1#1: start worker process 26
+2023/12/18 05:53:51 [notice] 1#1: start worker process 27
+2023/12/18 05:53:51 [notice] 1#1: start worker process 28
+2023/12/18 05:53:51 [notice] 1#1: start worker process 29
+2023/12/18 06:55:59 [error] 24#24: *81 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.3:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 06:55:59 [error] 24#24: *83 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.3:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 08:15:23 [warn] 23#23: *307 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.19.0.1, server: localhost, request: "POST /api/user HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 08:15:23 [warn] 23#23: *298 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.1, server: localhost, request: "POST /api/user/ HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 08:16:47 [warn] 24#24: *312 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.19.0.1, server: localhost, request: "POST /api/user HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 08:16:47 [warn] 24#24: *314 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.19.0.1, server: localhost, request: "POST /api/user/ HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 08:20:02 [warn] 25#25: *341 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.19.0.1, server: localhost, request: "POST /api/user HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 08:20:02 [warn] 24#24: *332 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.19.0.1, server: localhost, request: "POST /api/user/ HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 08:22:12 [warn] 25#25: *346 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.19.0.1, server: localhost, request: "POST /api/user HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 08:22:12 [warn] 25#25: *348 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.19.0.1, server: localhost, request: "POST /api/user/ HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 08:28:15 [warn] 25#25: *352 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.19.0.1, server: localhost, request: "POST /api/user HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 08:28:15 [warn] 25#25: *354 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.19.0.1, server: localhost, request: "POST /api/user/ HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 08:30:13 [warn] 25#25: *358 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.19.0.1, server: localhost, request: "POST /api/user HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 08:30:13 [warn] 25#25: *360 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.19.0.1, server: localhost, request: "POST /api/user/ HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 08:34:16 [warn] 25#25: *364 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.19.0.1, server: localhost, request: "POST /api/user HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 08:34:16 [warn] 25#25: *366 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.19.0.1, server: localhost, request: "POST /api/user/ HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 08:49:55 [warn] 25#25: *370 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.19.0.1, server: localhost, request: "POST /api/user HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 08:49:55 [warn] 25#25: *372 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.19.0.1, server: localhost, request: "POST /api/user/ HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 09:06:48 [warn] 26#26: *376 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.19.0.1, server: localhost, request: "POST /api/user HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 09:06:48 [warn] 26#26: *378 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.19.0.1, server: localhost, request: "POST /api/user/ HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 09:12:01 [warn] 26#26: *382 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.19.0.1, server: localhost, request: "POST /api/user HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 09:12:01 [warn] 26#26: *384 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.19.0.1, server: localhost, request: "POST /api/user/ HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 12:44:44 [error] 22#22: *499 open() "/assets/effects/defualt.jpg" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/effects/defualt.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 12:52:57 [error] 22#22: *501 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.3:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 12:52:57 [error] 22#22: *503 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.3:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/18 13:58:57 [error] 25#25: *588 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.3:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 14:01:47 [error] 25#25: *590 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.3:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 14:02:26 [error] 25#25: *592 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/user/ HTTP/1.1", upstream: "http://172.19.0.3:8000/api/user/", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/18 15:37:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/18 15:37:50 [notice] 22#22: gracefully shutting down
+2023/12/18 15:37:50 [notice] 23#23: gracefully shutting down
+2023/12/18 15:37:50 [notice] 24#24: gracefully shutting down
+2023/12/18 15:37:50 [notice] 25#25: gracefully shutting down
+2023/12/18 15:37:50 [notice] 25#25: exiting
+2023/12/18 15:37:50 [notice] 27#27: gracefully shutting down
+2023/12/18 15:37:50 [notice] 29#29: gracefully shutting down
+2023/12/18 15:37:50 [notice] 28#28: gracefully shutting down
+2023/12/18 15:37:50 [notice] 28#28: exiting
+2023/12/18 15:37:50 [notice] 26#26: gracefully shutting down
+2023/12/18 15:37:50 [notice] 26#26: exiting
+2023/12/18 15:37:50 [notice] 22#22: exiting
+2023/12/18 15:37:50 [notice] 23#23: exiting
+2023/12/18 15:37:50 [notice] 22#22: exit
+2023/12/18 15:37:50 [notice] 24#24: exiting
+2023/12/18 15:37:50 [notice] 25#25: exit
+2023/12/18 15:37:50 [notice] 27#27: exiting
+2023/12/18 15:37:50 [notice] 29#29: exiting
+2023/12/18 15:37:50 [notice] 28#28: exit
+2023/12/18 15:37:50 [notice] 26#26: exit
+2023/12/18 15:37:50 [notice] 23#23: exit
+2023/12/18 15:37:50 [notice] 24#24: exit
+2023/12/18 15:37:50 [notice] 27#27: exit
+2023/12/18 15:37:50 [notice] 29#29: exit
+2023/12/18 15:37:51 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/18 15:37:51 [notice] 1#1: worker process 25 exited with code 0
+2023/12/18 15:37:51 [notice] 1#1: worker process 28 exited with code 0
+2023/12/18 15:37:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/18 15:37:51 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/18 15:37:51 [notice] 1#1: worker process 24 exited with code 0
+2023/12/18 15:37:51 [notice] 1#1: worker process 29 exited with code 0
+2023/12/18 15:37:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/18 15:37:51 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/18 15:37:51 [notice] 1#1: worker process 22 exited with code 0
+2023/12/18 15:37:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/18 15:37:51 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/18 15:37:51 [notice] 1#1: worker process 26 exited with code 0
+2023/12/18 15:37:51 [notice] 1#1: worker process 27 exited with code 0
+2023/12/18 15:37:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/18 15:37:51 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/18 15:37:51 [notice] 1#1: worker process 23 exited with code 0
+2023/12/18 15:37:51 [notice] 1#1: exit
+2023/12/19 05:06:23 [notice] 1#1: using the "epoll" event method
+2023/12/19 05:06:23 [notice] 1#1: nginx/1.25.3
+2023/12/19 05:06:23 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/19 05:06:23 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/19 05:06:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/19 05:06:23 [notice] 1#1: start worker processes
+2023/12/19 05:06:23 [notice] 1#1: start worker process 21
+2023/12/19 05:06:23 [notice] 1#1: start worker process 22
+2023/12/19 05:06:23 [notice] 1#1: start worker process 23
+2023/12/19 05:06:23 [notice] 1#1: start worker process 24
+2023/12/19 05:06:23 [notice] 1#1: start worker process 25
+2023/12/19 05:06:23 [notice] 1#1: start worker process 26
+2023/12/19 05:06:23 [notice] 1#1: start worker process 27
+2023/12/19 05:06:23 [notice] 1#1: start worker process 28
+2023/12/19 06:36:24 [warn] 24#24: *117 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.19.0.1, server: localhost, request: "POST /api/user/projects HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2/settings"
+2023/12/19 06:40:30 [warn] 24#24: *130 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.1, server: localhost, request: "POST /api/user/projects HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2/settings"
+2023/12/19 06:40:50 [warn] 24#24: *135 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.19.0.1, server: localhost, request: "POST /api/user/projects HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2/settings"
+2023/12/19 15:40:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/19 15:40:30 [notice] 21#21: gracefully shutting down
+2023/12/19 15:40:30 [notice] 23#23: gracefully shutting down
+2023/12/19 15:40:30 [notice] 23#23: exiting
+2023/12/19 15:40:30 [notice] 24#24: gracefully shutting down
+2023/12/19 15:40:30 [notice] 22#22: gracefully shutting down
+2023/12/19 15:40:30 [notice] 25#25: gracefully shutting down
+2023/12/19 15:40:30 [notice] 27#27: gracefully shutting down
+2023/12/19 15:40:30 [notice] 28#28: gracefully shutting down
+2023/12/19 15:40:30 [notice] 28#28: exiting
+2023/12/19 15:40:30 [notice] 26#26: gracefully shutting down
+2023/12/19 15:40:30 [notice] 21#21: exiting
+2023/12/19 15:40:30 [notice] 23#23: exit
+2023/12/19 15:40:30 [notice] 22#22: exiting
+2023/12/19 15:40:30 [notice] 24#24: exiting
+2023/12/19 15:40:30 [notice] 25#25: exiting
+2023/12/19 15:40:30 [notice] 27#27: exiting
+2023/12/19 15:40:30 [notice] 28#28: exit
+2023/12/19 15:40:30 [notice] 26#26: exiting
+2023/12/19 15:40:30 [notice] 21#21: exit
+2023/12/19 15:40:30 [notice] 22#22: exit
+2023/12/19 15:40:30 [notice] 24#24: exit
+2023/12/19 15:40:30 [notice] 25#25: exit
+2023/12/19 15:40:30 [notice] 27#27: exit
+2023/12/19 15:40:30 [notice] 26#26: exit
+2023/12/19 15:40:30 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/19 15:40:30 [notice] 1#1: worker process 23 exited with code 0
+2023/12/19 15:40:30 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/19 15:40:30 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/19 15:40:30 [notice] 1#1: worker process 28 exited with code 0
+2023/12/19 15:40:30 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/19 15:40:30 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/19 15:40:30 [notice] 1#1: worker process 25 exited with code 0
+2023/12/19 15:40:30 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/19 15:40:30 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/19 15:40:30 [notice] 1#1: worker process 21 exited with code 0
+2023/12/19 15:40:30 [notice] 1#1: worker process 22 exited with code 0
+2023/12/19 15:40:30 [notice] 1#1: worker process 24 exited with code 0
+2023/12/19 15:40:30 [notice] 1#1: worker process 26 exited with code 0
+2023/12/19 15:40:30 [notice] 1#1: worker process 27 exited with code 0
+2023/12/19 15:40:30 [notice] 1#1: exit
+2023/12/20 06:04:37 [notice] 1#1: using the "epoll" event method
+2023/12/20 06:04:37 [notice] 1#1: nginx/1.25.3
+2023/12/20 06:04:37 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/20 06:04:37 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/20 06:04:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/20 06:04:37 [notice] 1#1: start worker processes
+2023/12/20 06:04:37 [notice] 1#1: start worker process 22
+2023/12/20 06:04:37 [notice] 1#1: start worker process 23
+2023/12/20 06:04:37 [notice] 1#1: start worker process 24
+2023/12/20 06:04:37 [notice] 1#1: start worker process 25
+2023/12/20 06:04:37 [notice] 1#1: start worker process 26
+2023/12/20 06:04:37 [notice] 1#1: start worker process 27
+2023/12/20 06:04:37 [notice] 1#1: start worker process 28
+2023/12/20 06:04:37 [notice] 1#1: start worker process 29
+2023/12/20 06:14:46 [error] 22#22: *23 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/undefined"
+2023/12/20 06:14:57 [error] 22#22: *33 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/0"
+2023/12/20 06:15:07 [error] 22#22: *41 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/undefined"
+2023/12/20 06:43:09 [error] 28#28: *206 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 06:43:09 [error] 28#28: *209 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 06:43:23 [error] 29#29: *221 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 06:43:58 [error] 22#22: *245 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 06:43:58 [error] 22#22: *248 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 06:44:17 [error] 22#22: *259 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:24:32 [error] 23#23: *286 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:25:39 [error] 24#24: *301 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:30:55 [error] 24#24: *317 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:36:25 [error] 25#25: *333 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:47:21 [error] 25#25: *348 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:47:21 [error] 26#26: *350 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:47:22 [error] 26#26: *361 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:47:23 [error] 26#26: *364 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:49:36 [error] 27#27: *374 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:49:38 [error] 27#27: *387 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:49:38 [error] 27#27: *388 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:53:40 [error] 28#28: *401 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:55:39 [error] 29#29: *429 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 07:55:39 [error] 29#29: *430 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 08:07:12 [error] 29#29: *443 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 09:00:15 [error] 22#22: *458 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 09:23:50 [error] 22#22: *473 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 14:55:53 [error] 23#23: *501 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 14:56:18 [error] 24#24: *518 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 15:04:23 [error] 25#25: *545 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/20 15:21:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/20 15:21:42 [notice] 23#23: gracefully shutting down
+2023/12/20 15:21:42 [notice] 24#24: gracefully shutting down
+2023/12/20 15:21:42 [notice] 22#22: gracefully shutting down
+2023/12/20 15:21:42 [notice] 29#29: gracefully shutting down
+2023/12/20 15:21:42 [notice] 28#28: gracefully shutting down
+2023/12/20 15:21:42 [notice] 25#25: gracefully shutting down
+2023/12/20 15:21:42 [notice] 26#26: gracefully shutting down
+2023/12/20 15:21:42 [notice] 27#27: gracefully shutting down
+2023/12/20 15:21:42 [notice] 28#28: exiting
+2023/12/20 15:21:42 [notice] 23#23: exiting
+2023/12/20 15:21:42 [notice] 24#24: exiting
+2023/12/20 15:21:42 [notice] 22#22: exiting
+2023/12/20 15:21:42 [notice] 28#28: exit
+2023/12/20 15:21:42 [notice] 25#25: exiting
+2023/12/20 15:21:42 [notice] 26#26: exiting
+2023/12/20 15:21:42 [notice] 25#25: exit
+2023/12/20 15:21:42 [notice] 29#29: exiting
+2023/12/20 15:21:42 [notice] 23#23: exit
+2023/12/20 15:21:42 [notice] 22#22: exit
+2023/12/20 15:21:42 [notice] 27#27: exiting
+2023/12/20 15:21:42 [notice] 26#26: exit
+2023/12/20 15:21:42 [notice] 27#27: exit
+2023/12/20 15:21:42 [notice] 24#24: exit
+2023/12/20 15:21:42 [notice] 29#29: exit
+2023/12/20 15:21:43 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/20 15:21:43 [notice] 1#1: worker process 22 exited with code 0
+2023/12/20 15:21:43 [notice] 1#1: worker process 23 exited with code 0
+2023/12/20 15:21:43 [notice] 1#1: worker process 24 exited with code 0
+2023/12/20 15:21:43 [notice] 1#1: worker process 26 exited with code 0
+2023/12/20 15:21:43 [notice] 1#1: worker process 28 exited with code 0
+2023/12/20 15:21:43 [notice] 1#1: worker process 29 exited with code 0
+2023/12/20 15:21:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/20 15:21:43 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/20 15:21:43 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/20 15:21:43 [notice] 1#1: worker process 25 exited with code 0
+2023/12/20 15:21:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/20 15:21:43 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/20 15:21:43 [notice] 1#1: worker process 27 exited with code 0
+2023/12/20 15:21:43 [notice] 1#1: exit
+2023/12/21 03:40:44 [notice] 1#1: using the "epoll" event method
+2023/12/21 03:40:44 [notice] 1#1: nginx/1.25.3
+2023/12/21 03:40:44 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/21 03:40:44 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/21 03:40:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 03:40:44 [notice] 1#1: start worker processes
+2023/12/21 03:40:44 [notice] 1#1: start worker process 22
+2023/12/21 03:40:44 [notice] 1#1: start worker process 23
+2023/12/21 03:40:44 [notice] 1#1: start worker process 24
+2023/12/21 03:40:44 [notice] 1#1: start worker process 25
+2023/12/21 03:40:44 [notice] 1#1: start worker process 26
+2023/12/21 03:40:44 [notice] 1#1: start worker process 27
+2023/12/21 03:40:44 [notice] 1#1: start worker process 28
+2023/12/21 03:40:44 [notice] 1#1: start worker process 29
+2023/12/21 04:51:27 [error] 23#23: *48 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/21 04:51:28 [error] 23#23: *51 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/21 04:53:07 [error] 23#23: *64 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/21 06:40:07 [error] 25#25: *371 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /api/projects/2/code/ HTTP/1.1", upstream: "http://172.19.0.2:8000/api/projects/2/code/", host: "localhost", referrer: "http://localhost:8080/projects/2"
+2023/12/21 14:50:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 14:50:44 [notice] 22#22: gracefully shutting down
+2023/12/21 14:50:44 [notice] 24#24: gracefully shutting down
+2023/12/21 14:50:44 [notice] 25#25: gracefully shutting down
+2023/12/21 14:50:44 [notice] 25#25: exiting
+2023/12/21 14:50:44 [notice] 23#23: gracefully shutting down
+2023/12/21 14:50:44 [notice] 26#26: gracefully shutting down
+2023/12/21 14:50:44 [notice] 26#26: exiting
+2023/12/21 14:50:44 [notice] 27#27: gracefully shutting down
+2023/12/21 14:50:44 [notice] 28#28: gracefully shutting down
+2023/12/21 14:50:44 [notice] 29#29: gracefully shutting down
+2023/12/21 14:50:44 [notice] 22#22: exiting
+2023/12/21 14:50:44 [notice] 24#24: exiting
+2023/12/21 14:50:44 [notice] 25#25: exit
+2023/12/21 14:50:44 [notice] 23#23: exiting
+2023/12/21 14:50:44 [notice] 26#26: exit
+2023/12/21 14:50:44 [notice] 27#27: exiting
+2023/12/21 14:50:44 [notice] 28#28: exiting
+2023/12/21 14:50:44 [notice] 29#29: exiting
+2023/12/21 14:50:44 [notice] 22#22: exit
+2023/12/21 14:50:44 [notice] 24#24: exit
+2023/12/21 14:50:44 [notice] 23#23: exit
+2023/12/21 14:50:44 [notice] 27#27: exit
+2023/12/21 14:50:44 [notice] 28#28: exit
+2023/12/21 14:50:44 [notice] 29#29: exit
+2023/12/21 14:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/21 14:50:44 [notice] 1#1: worker process 25 exited with code 0
+2023/12/21 14:50:44 [notice] 1#1: worker process 27 exited with code 0
+2023/12/21 14:50:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 14:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/21 14:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/21 14:50:44 [notice] 1#1: worker process 26 exited with code 0
+2023/12/21 14:50:44 [notice] 1#1: worker process 28 exited with code 0
+2023/12/21 14:50:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 14:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/21 14:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/21 14:50:44 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 14:50:44 [notice] 1#1: worker process 29 exited with code 0
+2023/12/21 14:50:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 14:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/21 14:50:44 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 14:50:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 14:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/21 14:50:44 [notice] 1#1: worker process 24 exited with code 0
+2023/12/21 14:50:44 [notice] 1#1: exit
+2023/12/22 05:04:34 [notice] 1#1: using the "epoll" event method
+2023/12/22 05:04:34 [notice] 1#1: nginx/1.25.3
+2023/12/22 05:04:34 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/22 05:04:34 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/22 05:04:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/22 05:04:34 [notice] 1#1: start worker processes
+2023/12/22 05:04:34 [notice] 1#1: start worker process 22
+2023/12/22 05:04:34 [notice] 1#1: start worker process 23
+2023/12/22 05:04:34 [notice] 1#1: start worker process 24
+2023/12/22 05:04:34 [notice] 1#1: start worker process 25
+2023/12/22 05:04:34 [notice] 1#1: start worker process 26
+2023/12/22 05:04:34 [notice] 1#1: start worker process 27
+2023/12/22 05:04:34 [notice] 1#1: start worker process 28
+2023/12/22 05:04:34 [notice] 1#1: start worker process 29
+2023/12/22 13:46:06 [error] 22#22: *2013 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /api/projects/1/code/?temp=true HTTP/1.1", upstream: "http://172.19.0.5:8000/api/projects/1/code/?temp=true", host: "localhost", referrer: "http://localhost:8080/projects/temp/1"
+2023/12/22 15:01:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/22 15:01:46 [notice] 22#22: gracefully shutting down
+2023/12/22 15:01:46 [notice] 23#23: gracefully shutting down
+2023/12/22 15:01:46 [notice] 28#28: gracefully shutting down
+2023/12/22 15:01:46 [notice] 28#28: exiting
+2023/12/22 15:01:46 [notice] 24#24: gracefully shutting down
+2023/12/22 15:01:46 [notice] 25#25: gracefully shutting down
+2023/12/22 15:01:46 [notice] 25#25: exiting
+2023/12/22 15:01:46 [notice] 27#27: gracefully shutting down
+2023/12/22 15:01:46 [notice] 29#29: gracefully shutting down
+2023/12/22 15:01:46 [notice] 29#29: exiting
+2023/12/22 15:01:46 [notice] 26#26: gracefully shutting down
+2023/12/22 15:01:46 [notice] 22#22: exiting
+2023/12/22 15:01:46 [notice] 23#23: exiting
+2023/12/22 15:01:46 [notice] 28#28: exit
+2023/12/22 15:01:46 [notice] 24#24: exiting
+2023/12/22 15:01:46 [notice] 25#25: exit
+2023/12/22 15:01:46 [notice] 27#27: exiting
+2023/12/22 15:01:46 [notice] 29#29: exit
+2023/12/22 15:01:46 [notice] 26#26: exiting
+2023/12/22 15:01:46 [notice] 22#22: exit
+2023/12/22 15:01:46 [notice] 23#23: exit
+2023/12/22 15:01:46 [notice] 24#24: exit
+2023/12/22 15:01:46 [notice] 27#27: exit
+2023/12/22 15:01:46 [notice] 26#26: exit
+2023/12/22 15:01:46 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/22 15:01:46 [notice] 1#1: worker process 24 exited with code 0
+2023/12/22 15:01:46 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/22 15:01:46 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/22 15:01:46 [notice] 1#1: worker process 22 exited with code 0
+2023/12/22 15:01:46 [notice] 1#1: worker process 23 exited with code 0
+2023/12/22 15:01:46 [notice] 1#1: worker process 28 exited with code 0
+2023/12/22 15:01:46 [notice] 1#1: worker process 29 exited with code 0
+2023/12/22 15:01:46 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/22 15:01:46 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/22 15:01:46 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/22 15:01:46 [notice] 1#1: worker process 26 exited with code 0
+2023/12/22 15:01:46 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/22 15:01:46 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/22 15:01:46 [notice] 1#1: worker process 25 exited with code 0
+2023/12/22 15:01:46 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/22 15:01:46 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/22 15:01:46 [notice] 1#1: worker process 27 exited with code 0
+2023/12/22 15:01:46 [notice] 1#1: exit
+2023/12/23 03:47:53 [emerg] 1#1: host not found in upstream "python" in /etc/nginx/conf.d/default.conf:18
+2023/12/23 03:50:52 [notice] 1#1: using the "epoll" event method
+2023/12/23 03:50:52 [notice] 1#1: nginx/1.25.3
+2023/12/23 03:50:52 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/23 03:50:52 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/23 03:50:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/23 03:50:52 [notice] 1#1: start worker processes
+2023/12/23 03:50:52 [notice] 1#1: start worker process 22
+2023/12/23 03:50:52 [notice] 1#1: start worker process 23
+2023/12/23 03:50:52 [notice] 1#1: start worker process 24
+2023/12/23 03:50:52 [notice] 1#1: start worker process 25
+2023/12/23 03:50:52 [notice] 1#1: start worker process 26
+2023/12/23 03:50:52 [notice] 1#1: start worker process 27
+2023/12/23 03:50:52 [notice] 1#1: start worker process 28
+2023/12/23 03:50:52 [notice] 1#1: start worker process 29
+2023/12/23 03:53:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/23 03:53:14 [notice] 22#22: gracefully shutting down
+2023/12/23 03:53:14 [notice] 24#24: gracefully shutting down
+2023/12/23 03:53:14 [notice] 25#25: gracefully shutting down
+2023/12/23 03:53:14 [notice] 26#26: gracefully shutting down
+2023/12/23 03:53:14 [notice] 27#27: gracefully shutting down
+2023/12/23 03:53:14 [notice] 28#28: gracefully shutting down
+2023/12/23 03:53:14 [notice] 23#23: gracefully shutting down
+2023/12/23 03:53:14 [notice] 29#29: gracefully shutting down
+2023/12/23 03:53:14 [notice] 22#22: exiting
+2023/12/23 03:53:14 [notice] 24#24: exiting
+2023/12/23 03:53:14 [notice] 25#25: exiting
+2023/12/23 03:53:14 [notice] 26#26: exiting
+2023/12/23 03:53:14 [notice] 27#27: exiting
+2023/12/23 03:53:14 [notice] 28#28: exiting
+2023/12/23 03:53:14 [notice] 23#23: exiting
+2023/12/23 03:53:14 [notice] 29#29: exiting
+2023/12/23 03:53:14 [notice] 22#22: exit
+2023/12/23 03:53:14 [notice] 29#29: exit
+2023/12/23 03:53:14 [notice] 24#24: exit
+2023/12/23 03:53:14 [notice] 25#25: exit
+2023/12/23 03:53:14 [notice] 26#26: exit
+2023/12/23 03:53:14 [notice] 27#27: exit
+2023/12/23 03:53:14 [notice] 28#28: exit
+2023/12/23 03:53:14 [notice] 23#23: exit
+2023/12/23 03:53:15 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/23 03:53:15 [notice] 1#1: worker process 22 exited with code 0
+2023/12/23 03:53:15 [notice] 1#1: worker process 23 exited with code 0
+2023/12/23 03:53:15 [notice] 1#1: worker process 25 exited with code 0
+2023/12/23 03:53:15 [notice] 1#1: worker process 26 exited with code 0
+2023/12/23 03:53:15 [notice] 1#1: worker process 27 exited with code 0
+2023/12/23 03:53:15 [notice] 1#1: worker process 29 exited with code 0
+2023/12/23 03:53:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/23 03:53:15 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/23 03:53:15 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/23 03:53:15 [notice] 1#1: worker process 24 exited with code 0
+2023/12/23 03:53:15 [notice] 1#1: worker process 28 exited with code 0
+2023/12/23 03:53:15 [notice] 1#1: exit
+2023/12/23 03:53:32 [notice] 1#1: using the "epoll" event method
+2023/12/23 03:53:32 [notice] 1#1: nginx/1.25.3
+2023/12/23 03:53:32 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/23 03:53:32 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/23 03:53:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/23 03:53:32 [notice] 1#1: start worker processes
+2023/12/23 03:53:32 [notice] 1#1: start worker process 22
+2023/12/23 03:53:32 [notice] 1#1: start worker process 23
+2023/12/23 03:53:32 [notice] 1#1: start worker process 24
+2023/12/23 03:53:32 [notice] 1#1: start worker process 25
+2023/12/23 03:53:32 [notice] 1#1: start worker process 26
+2023/12/23 03:53:32 [notice] 1#1: start worker process 27
+2023/12/23 03:53:32 [notice] 1#1: start worker process 28
+2023/12/23 03:53:32 [notice] 1#1: start worker process 29
+2023/12/23 06:32:59 [error] 26#26: *745 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/1"
+2023/12/23 06:32:59 [error] 26#26: *747 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/1"
+2023/12/23 06:35:19 [error] 27#27: *809 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/1"
+2023/12/23 06:35:19 [error] 27#27: *810 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/1"
+2023/12/23 06:39:15 [error] 22#22: *889 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/undefined"
+2023/12/23 06:39:15 [error] 22#22: *890 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/undefined"
+2023/12/23 06:40:10 [error] 23#23: *895 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/undefined"
+2023/12/23 06:40:10 [error] 23#23: *896 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/undefined"
+2023/12/23 06:40:24 [error] 23#23: *897 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/23 06:40:24 [error] 23#23: *898 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/23 14:39:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/23 14:39:04 [notice] 22#22: gracefully shutting down
+2023/12/23 14:39:04 [notice] 23#23: gracefully shutting down
+2023/12/23 14:39:04 [notice] 24#24: gracefully shutting down
+2023/12/23 14:39:04 [notice] 26#26: gracefully shutting down
+2023/12/23 14:39:04 [notice] 25#25: gracefully shutting down
+2023/12/23 14:39:04 [notice] 27#27: gracefully shutting down
+2023/12/23 14:39:04 [notice] 28#28: gracefully shutting down
+2023/12/23 14:39:04 [notice] 29#29: gracefully shutting down
+2023/12/23 14:39:04 [notice] 22#22: exiting
+2023/12/23 14:39:04 [notice] 23#23: exiting
+2023/12/23 14:39:04 [notice] 24#24: exiting
+2023/12/23 14:39:04 [notice] 26#26: exiting
+2023/12/23 14:39:04 [notice] 25#25: exiting
+2023/12/23 14:39:04 [notice] 27#27: exiting
+2023/12/23 14:39:04 [notice] 28#28: exiting
+2023/12/23 14:39:04 [notice] 29#29: exiting
+2023/12/23 14:39:04 [notice] 29#29: exit
+2023/12/23 14:39:04 [notice] 22#22: exit
+2023/12/23 14:39:04 [notice] 23#23: exit
+2023/12/23 14:39:04 [notice] 24#24: exit
+2023/12/23 14:39:04 [notice] 26#26: exit
+2023/12/23 14:39:04 [notice] 25#25: exit
+2023/12/23 14:39:04 [notice] 27#27: exit
+2023/12/23 14:39:04 [notice] 28#28: exit
+2023/12/23 14:39:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/23 14:39:04 [notice] 1#1: worker process 25 exited with code 0
+2023/12/23 14:39:04 [notice] 1#1: worker process 26 exited with code 0
+2023/12/23 14:39:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/23 14:39:04 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/23 14:39:04 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/23 14:39:04 [notice] 1#1: worker process 23 exited with code 0
+2023/12/23 14:39:04 [notice] 1#1: worker process 27 exited with code 0
+2023/12/23 14:39:04 [notice] 1#1: worker process 28 exited with code 0
+2023/12/23 14:39:04 [notice] 1#1: worker process 29 exited with code 0
+2023/12/23 14:39:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/23 14:39:04 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/23 14:39:04 [notice] 1#1: worker process 22 exited with code 0
+2023/12/23 14:39:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/23 14:39:04 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/23 14:39:04 [notice] 1#1: worker process 24 exited with code 0
+2023/12/23 14:39:04 [notice] 1#1: exit
+2023/12/24 03:18:52 [notice] 1#1: using the "epoll" event method
+2023/12/24 03:18:52 [notice] 1#1: nginx/1.25.3
+2023/12/24 03:18:52 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/24 03:18:52 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/24 03:18:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/24 03:18:52 [notice] 1#1: start worker processes
+2023/12/24 03:18:52 [notice] 1#1: start worker process 23
+2023/12/24 03:18:52 [notice] 1#1: start worker process 24
+2023/12/24 03:18:52 [notice] 1#1: start worker process 25
+2023/12/24 03:18:52 [notice] 1#1: start worker process 26
+2023/12/24 03:18:52 [notice] 1#1: start worker process 27
+2023/12/24 03:18:52 [notice] 1#1: start worker process 28
+2023/12/24 03:18:52 [notice] 1#1: start worker process 29
+2023/12/24 03:18:52 [notice] 1#1: start worker process 30
+2023/12/24 09:02:18 [error] 29#29: *658 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/1"
+2023/12/24 09:05:22 [error] 30#30: *660 open() "/assets/avatars/undefined" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/1"
+2023/12/24 15:04:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/24 15:04:56 [notice] 24#24: gracefully shutting down
+2023/12/24 15:04:56 [notice] 23#23: gracefully shutting down
+2023/12/24 15:04:56 [notice] 29#29: gracefully shutting down
+2023/12/24 15:04:56 [notice] 26#26: gracefully shutting down
+2023/12/24 15:04:56 [notice] 27#27: gracefully shutting down
+2023/12/24 15:04:56 [notice] 30#30: gracefully shutting down
+2023/12/24 15:04:56 [notice] 28#28: gracefully shutting down
+2023/12/24 15:04:56 [notice] 25#25: gracefully shutting down
+2023/12/24 15:04:56 [notice] 24#24: exiting
+2023/12/24 15:04:56 [notice] 23#23: exiting
+2023/12/24 15:04:56 [notice] 29#29: exiting
+2023/12/24 15:04:56 [notice] 26#26: exiting
+2023/12/24 15:04:56 [notice] 27#27: exiting
+2023/12/24 15:04:56 [notice] 30#30: exiting
+2023/12/24 15:04:56 [notice] 28#28: exiting
+2023/12/24 15:04:56 [notice] 25#25: exiting
+2023/12/24 15:04:56 [notice] 24#24: exit
+2023/12/24 15:04:56 [notice] 23#23: exit
+2023/12/24 15:04:56 [notice] 29#29: exit
+2023/12/24 15:04:56 [notice] 26#26: exit
+2023/12/24 15:04:56 [notice] 27#27: exit
+2023/12/24 15:04:56 [notice] 30#30: exit
+2023/12/24 15:04:56 [notice] 28#28: exit
+2023/12/24 15:04:56 [notice] 25#25: exit
+2023/12/24 15:04:56 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/24 15:04:56 [notice] 1#1: worker process 25 exited with code 0
+2023/12/24 15:04:56 [notice] 1#1: worker process 27 exited with code 0
+2023/12/24 15:04:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/24 15:04:56 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/24 15:04:56 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/24 15:04:56 [notice] 1#1: worker process 23 exited with code 0
+2023/12/24 15:04:56 [notice] 1#1: worker process 26 exited with code 0
+2023/12/24 15:04:56 [notice] 1#1: worker process 28 exited with code 0
+2023/12/24 15:04:56 [notice] 1#1: worker process 29 exited with code 0
+2023/12/24 15:04:56 [notice] 1#1: worker process 30 exited with code 0
+2023/12/24 15:04:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/24 15:04:56 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/24 15:04:56 [notice] 1#1: worker process 24 exited with code 0
+2023/12/24 15:04:56 [notice] 1#1: exit
+2023/12/25 04:48:10 [notice] 1#1: using the "epoll" event method
+2023/12/25 04:48:10 [notice] 1#1: nginx/1.25.3
+2023/12/25 04:48:10 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/25 04:48:10 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/25 04:48:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/25 04:48:10 [notice] 1#1: start worker processes
+2023/12/25 04:48:10 [notice] 1#1: start worker process 22
+2023/12/25 04:48:10 [notice] 1#1: start worker process 23
+2023/12/25 04:48:10 [notice] 1#1: start worker process 24
+2023/12/25 04:48:10 [notice] 1#1: start worker process 25
+2023/12/25 04:48:10 [notice] 1#1: start worker process 26
+2023/12/25 04:48:10 [notice] 1#1: start worker process 27
+2023/12/25 04:48:10 [notice] 1#1: start worker process 28
+2023/12/25 04:48:10 [notice] 1#1: start worker process 29
+2023/12/25 15:04:37 [error] 23#23: *57 open() "/assets/imgs/largeicon.png" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/imgs/largeicon.png HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/25 15:05:20 [error] 24#24: *61 open() "/assets/imgs/largeicon.png" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/imgs/largeicon.png HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/25 15:08:24 [error] 24#24: *63 open() "/usr/share/nginx/html/require('@/assets/imgs/largeicon.png')" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /require(%27@/assets/imgs/largeicon.png%27) HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/25 15:09:11 [error] 24#24: *67 open() "/usr/share/nginx/html/require('@/assets/imgs/largeicon.png')" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /require(%27@/assets/imgs/largeicon.png%27) HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/25 15:09:25 [error] 24#24: *69 open() "/usr/share/nginx/html/@/assets/imgs/largeicon.png" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /@/assets/imgs/largeicon.png HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/25 15:10:21 [error] 24#24: *70 open() "/usr/share/nginx/html/src/assets/imgs/largeicon.png" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /src/assets/imgs/largeicon.png HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/25 15:23:17 [error] 24#24: *78 open() "/assets/avatars/default.jpg" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/default.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/25 15:23:17 [error] 24#24: *79 open() "/assets/avatars/default.jpg" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /assets/avatars/default.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/25 15:43:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/25 15:43:33 [notice] 22#22: gracefully shutting down
+2023/12/25 15:43:33 [notice] 23#23: gracefully shutting down
+2023/12/25 15:43:33 [notice] 24#24: gracefully shutting down
+2023/12/25 15:43:33 [notice] 25#25: gracefully shutting down
+2023/12/25 15:43:33 [notice] 28#28: gracefully shutting down
+2023/12/25 15:43:33 [notice] 27#27: gracefully shutting down
+2023/12/25 15:43:33 [notice] 26#26: gracefully shutting down
+2023/12/25 15:43:33 [notice] 26#26: exiting
+2023/12/25 15:43:33 [notice] 29#29: gracefully shutting down
+2023/12/25 15:43:33 [notice] 22#22: exiting
+2023/12/25 15:43:33 [notice] 23#23: exiting
+2023/12/25 15:43:33 [notice] 24#24: exiting
+2023/12/25 15:43:33 [notice] 25#25: exiting
+2023/12/25 15:43:33 [notice] 28#28: exiting
+2023/12/25 15:43:33 [notice] 27#27: exiting
+2023/12/25 15:43:33 [notice] 26#26: exit
+2023/12/25 15:43:33 [notice] 29#29: exiting
+2023/12/25 15:43:33 [notice] 22#22: exit
+2023/12/25 15:43:33 [notice] 23#23: exit
+2023/12/25 15:43:33 [notice] 24#24: exit
+2023/12/25 15:43:33 [notice] 25#25: exit
+2023/12/25 15:43:33 [notice] 28#28: exit
+2023/12/25 15:43:33 [notice] 27#27: exit
+2023/12/25 15:43:33 [notice] 29#29: exit
+2023/12/25 15:43:33 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/25 15:43:33 [notice] 1#1: worker process 25 exited with code 0
+2023/12/25 15:43:33 [notice] 1#1: worker process 27 exited with code 0
+2023/12/25 15:43:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/25 15:43:33 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/25 15:43:33 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/12/25 15:43:33 [notice] 1#1: worker process 22 exited with code 0
+2023/12/25 15:43:33 [notice] 1#1: worker process 26 exited with code 0
+2023/12/25 15:43:33 [notice] 1#1: worker process 28 exited with code 0
+2023/12/25 15:43:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/25 15:43:33 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/25 15:43:33 [notice] 1#1: worker process 23 exited with code 0
+2023/12/25 15:43:33 [notice] 1#1: worker process 24 exited with code 0
+2023/12/25 15:43:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/25 15:43:33 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/25 15:43:33 [notice] 1#1: worker process 29 exited with code 0
+2023/12/25 15:43:33 [notice] 1#1: exit
+2023/12/26 03:00:14 [notice] 1#1: using the "epoll" event method
+2023/12/26 03:00:14 [notice] 1#1: nginx/1.25.3
+2023/12/26 03:00:14 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/26 03:00:14 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/26 03:00:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/26 03:00:14 [notice] 1#1: start worker processes
+2023/12/26 03:00:14 [notice] 1#1: start worker process 22
+2023/12/26 03:00:14 [notice] 1#1: start worker process 23
+2023/12/26 03:00:14 [notice] 1#1: start worker process 24
+2023/12/26 03:00:14 [notice] 1#1: start worker process 25
+2023/12/26 03:00:14 [notice] 1#1: start worker process 26
+2023/12/26 03:00:14 [notice] 1#1: start worker process 27
+2023/12/26 03:00:14 [notice] 1#1: start worker process 28
+2023/12/26 03:00:14 [notice] 1#1: start worker process 29
+2023/12/26 05:17:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/26 05:17:16 [notice] 22#22: gracefully shutting down
+2023/12/26 05:17:16 [notice] 25#25: gracefully shutting down
+2023/12/26 05:17:16 [notice] 26#26: gracefully shutting down
+2023/12/26 05:17:16 [notice] 23#23: gracefully shutting down
+2023/12/26 05:17:16 [notice] 24#24: gracefully shutting down
+2023/12/26 05:17:16 [notice] 29#29: gracefully shutting down
+2023/12/26 05:17:16 [notice] 27#27: gracefully shutting down
+2023/12/26 05:17:16 [notice] 28#28: gracefully shutting down
+2023/12/26 05:17:16 [notice] 22#22: exiting
+2023/12/26 05:17:16 [notice] 25#25: exiting
+2023/12/26 05:17:16 [notice] 26#26: exiting
+2023/12/26 05:17:16 [notice] 23#23: exiting
+2023/12/26 05:17:16 [notice] 24#24: exiting
+2023/12/26 05:17:16 [notice] 29#29: exiting
+2023/12/26 05:17:16 [notice] 27#27: exiting
+2023/12/26 05:17:16 [notice] 28#28: exiting
+2023/12/26 05:17:16 [notice] 22#22: exit
+2023/12/26 05:17:16 [notice] 25#25: exit
+2023/12/26 05:17:16 [notice] 26#26: exit
+2023/12/26 05:17:16 [notice] 23#23: exit
+2023/12/26 05:17:16 [notice] 24#24: exit
+2023/12/26 05:17:16 [notice] 29#29: exit
+2023/12/26 05:17:16 [notice] 27#27: exit
+2023/12/26 05:17:16 [notice] 28#28: exit
+2023/12/26 05:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/12/26 05:17:16 [notice] 1#1: worker process 25 exited with code 0
+2023/12/26 05:17:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/26 05:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/12/26 05:17:16 [notice] 1#1: worker process 24 exited with code 0
+2023/12/26 05:17:16 [notice] 1#1: worker process 26 exited with code 0
+2023/12/26 05:17:16 [notice] 1#1: worker process 28 exited with code 0
+2023/12/26 05:17:16 [notice] 1#1: worker process 29 exited with code 0
+2023/12/26 05:17:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/26 05:17:16 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/26 05:17:16 [notice] 1#1: worker process 22 exited with code 0
+2023/12/26 05:17:16 [notice] 1#1: worker process 23 exited with code 0
+2023/12/26 05:17:16 [notice] 1#1: worker process 27 exited with code 0
+2023/12/26 05:17:16 [notice] 1#1: exit
+2023/12/26 05:54:53 [notice] 1#1: using the "epoll" event method
+2023/12/26 05:54:53 [notice] 1#1: nginx/1.25.3
+2023/12/26 05:54:53 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/26 05:54:53 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2023/12/26 05:54:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/26 05:54:53 [notice] 1#1: start worker processes
+2023/12/26 05:54:53 [notice] 1#1: start worker process 22
+2023/12/26 05:54:53 [notice] 1#1: start worker process 23
+2023/12/26 05:54:53 [notice] 1#1: start worker process 24
+2023/12/26 05:54:53 [notice] 1#1: start worker process 25
+2023/12/26 05:54:53 [notice] 1#1: start worker process 26
+2023/12/26 05:54:53 [notice] 1#1: start worker process 27
+2023/12/26 05:54:53 [notice] 1#1: start worker process 28
+2023/12/26 05:54:53 [notice] 1#1: start worker process 29
+2023/12/26 07:36:37 [warn] 22#22: *270 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.19.0.1, server: localhost, request: "POST /api/user/projects HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/projects/2/settings"
+2023/12/26 07:40:59 [warn] 26#26: *624 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.1, server: localhost, request: "POST /api/user HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/user/4?tab=projects"
+2023/12/26 07:40:59 [warn] 26#26: *620 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.19.0.1, server: localhost, request: "POST /api/user/ HTTP/1.1", host: "localhost", referrer: "http://localhost:8080/"
+2023/12/26 08:02:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/26 08:02:36 [notice] 22#22: gracefully shutting down
+2023/12/26 08:02:36 [notice] 23#23: gracefully shutting down
+2023/12/26 08:02:36 [notice] 24#24: gracefully shutting down
+2023/12/26 08:02:36 [notice] 25#25: gracefully shutting down
+2023/12/26 08:02:36 [notice] 27#27: gracefully shutting down
+2023/12/26 08:02:36 [notice] 28#28: gracefully shutting down
+2023/12/26 08:02:36 [notice] 26#26: gracefully shutting down
+2023/12/26 08:02:36 [notice] 29#29: gracefully shutting down
+2023/12/26 08:02:36 [notice] 22#22: exiting
+2023/12/26 08:02:36 [notice] 23#23: exiting
+2023/12/26 08:02:36 [notice] 24#24: exiting
+2023/12/26 08:02:36 [notice] 25#25: exiting
+2023/12/26 08:02:36 [notice] 27#27: exiting
+2023/12/26 08:02:36 [notice] 28#28: exiting
+2023/12/26 08:02:36 [notice] 26#26: exiting
+2023/12/26 08:02:36 [notice] 29#29: exiting
+2023/12/26 08:02:36 [notice] 22#22: exit
+2023/12/26 08:02:36 [notice] 23#23: exit
+2023/12/26 08:02:36 [notice] 24#24: exit
+2023/12/26 08:02:36 [notice] 25#25: exit
+2023/12/26 08:02:36 [notice] 27#27: exit
+2023/12/26 08:02:36 [notice] 28#28: exit
+2023/12/26 08:02:36 [notice] 26#26: exit
+2023/12/26 08:02:36 [notice] 29#29: exit
+2023/12/26 08:02:36 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/12/26 08:02:36 [notice] 1#1: worker process 22 exited with code 0
+2023/12/26 08:02:36 [notice] 1#1: worker process 25 exited with code 0
+2023/12/26 08:02:36 [notice] 1#1: worker process 26 exited with code 0
+2023/12/26 08:02:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/26 08:02:36 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/26 08:02:36 [notice] 1#1: worker process 29 exited with code 0
+2023/12/26 08:02:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/26 08:02:37 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/26 08:02:37 [notice] 1#1: worker process 23 exited with code 0
+2023/12/26 08:02:37 [notice] 1#1: worker process 24 exited with code 0
+2023/12/26 08:02:37 [notice] 1#1: worker process 28 exited with code 0
+2023/12/26 08:02:37 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/26 08:02:37 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/12/26 08:02:37 [notice] 1#1: worker process 27 exited with code 0
+2023/12/26 08:02:37 [notice] 1#1: exit

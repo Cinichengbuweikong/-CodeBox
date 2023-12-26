@@ -1,0 +1,17 @@
+// 配色遵循 6-3-1 原则
+$percent: 20;  // 变亮变暗的百分比
+$backgroundColor: #3e3e3e;  // 背景色
+$foregroundColor: #097ac6;  // 前景色
+$actionColor: #f63989;  // 提示色
+
+$backgroundLightenColor: lighten($backgroundColor, $percent);  // 更亮的背景色
+$foregroundLightenColor: lighten($foregroundColor, $percent);  // 更亮的前景色
+
+$backgroundDarkenColor: #2e2e2e;  // 更暗的背景色
+$actionDarkenColor: darken($actionColor, $percent);  // 更暗的提示色
+
+$backgroundDarkestColor: #1e1e1e;  // 最暗的背景色
+
+
+$fontColor: #eee;  // 文字颜色
+$fontDarkColor: #222;  // 暗文本颜色

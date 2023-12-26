@@ -1,0 +1,8 @@
+为 cookie 设置 secure 属性 设置其只能在 https 环境下被发送
+
+
+把代码上传到 github 上的时候记得删除 constants.py 中的
+删除 constants.py 中的 mysql 用户信息和密码  删除 redis 的密码
+删除 genMysqlUser.txt
+删除 constants.py 中的用于迁移的 DB_URL
+删除此文件

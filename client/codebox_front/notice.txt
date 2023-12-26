@@ -1,0 +1,19 @@
+注意:
+修改了 @vue-repl 的源码:
+1.
+将 @vue/repl/dist/vue-repl.js/ 中 140 行 11630 列的 url: "https://cdn.jsdelivr.net/npm/es-module-shims@1.5.18/dist/es-module-shims.wasm.js"
+更改为了: "/assets/serverStatics/scripts/es-module-shims.wasm-1.5.8.js"
+
+2.
+将 @vue/repl/dist/vue-repl.js/ 中 17149 行的 const newSFCCode 的值更改为:
+const newSFCCode = `<template>
+    <h1>这是一个新组件, 现在你可以继续写代码了.</h1>
+  	<h2>在离开页面之前请点击下面的 "保存修改" 按钮并等待代码保存完成, 否则你的代码将被丢弃.</h2>
+</template>
+
+<script setup lang="ts">
+</script>
+
+<style>
+</style>`;
+也就是后端 constants.py 中定义的模板文件默认内容
