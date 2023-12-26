@@ -38,6 +38,11 @@
 
             <PageFooter />
         </el-container>
+
+        <WelcomeDialog
+            :show="showWelcomeDialog"
+            :closeDialog="closeWelcomeDialog" 
+        />
     </div>
 </template>
 
@@ -52,6 +57,7 @@ import {
 
 import PageHeader from "../components/Header/pageHeader.vue";
 import PageFooter from "../components/Footer/pageFooter.vue";
+import WelcomeDialog from "@/components/Dialog/welcomeDialog.vue";
 
 
 defineOptions({
@@ -63,6 +69,8 @@ const mainRef = ref<ComponentPublicInstance | null>(null);
 const sectionRef = ref<HTMLElement | null>(null);
 const scrollPercent = ref<number>(0);
 // 记录整个 el-main 已经滚动了百分之几的 ref
+const showWelcomeDialog = ref<boolean>(true);
+// 是否显示欢迎对话框
 
 
 const calcStyle = computed(() => ({
@@ -288,6 +296,12 @@ function getText(immediateScrollPercent: number) {
         return states[100];
     }
 }
+
+function closeWelcomeDialog() {
+    // 关闭欢迎对话框的函数
+
+    showWelcomeDialog.value = false;
+}
 </script>
 
 
@@ -351,6 +365,8 @@ function getText(immediateScrollPercent: number) {
 
                     color: transparent;
                     text-shadow: 0px 0px 0px rgba($color: white, $alpha: 0.8);
+
+                    pointer-events: none;
                     
                     h2 {
                         font-size: 60px;

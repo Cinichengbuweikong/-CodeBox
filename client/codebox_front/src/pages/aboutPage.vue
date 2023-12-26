@@ -52,7 +52,9 @@
 
                 <el-row>
                     <el-text class="title">项目演示</el-text>
-                    <div>this is yanshi</div>
+                    <div>
+                        <video src="/assets/serverStatics/descVideo/desc.mp4" type="video/mp4" controls preload="auto"></video>
+                    </div>
                 </el-row>
             </el-main>
             
@@ -132,6 +134,10 @@ defineOptions({
                 font-weight: bold;
 
                 margin-top: 40px;
+            }
+
+            video {
+                width: 500px;
             }
         }
     }
