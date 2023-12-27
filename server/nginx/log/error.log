@@ -1907,3 +1907,43 @@
 2023/12/26 14:45:34 [notice] 1#1: worker process 25 exited with code 0
 2023/12/26 14:45:34 [notice] 1#1: worker process 27 exited with code 0
 2023/12/26 14:45:34 [notice] 1#1: exit
+2023/12/27 06:59:58 [error] 22#22: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/27 06:59:59 [error] 23#23: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:04:31 [error] 24#24: *3 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/27 07:09:15 [error] 27#27: *6 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/27 07:09:15 [error] 28#28: *7 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:09:44 [error] 29#29: *8 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/27 07:12:23 [notice] 47#47: signal process started
+2023/12/27 07:19:33 [notice] 58#58: signal process started
+2023/12/27 07:23:19 [notice] 68#68: signal process started
+2023/12/27 07:23:25 [error] 69#69: *21 open() "/usr/share/nginx/html/css/css/chunk-vendors.db4f9ddf.css" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /css/chunk-vendors.db4f9ddf.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:23:25 [error] 70#70: *22 open() "/usr/share/nginx/html/css/css/app.25c60abc.css" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /css/app.25c60abc.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:23:26 [error] 70#70: *22 open() "/usr/share/nginx/html/js/js/chunk-vendors.cb1d2eb4.js" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /js/chunk-vendors.cb1d2eb4.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:23:26 [error] 70#70: *22 open() "/usr/share/nginx/html/js/js/app.9a8d58fb.js" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /js/app.9a8d58fb.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:23:26 [error] 71#71: *23 open() "/usr/share/nginx/html/js/js/chunk-vendors.cb1d2eb4.js" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /js/chunk-vendors.cb1d2eb4.js HTTP/1.1", host: "localhost"
+2023/12/27 07:23:26 [error] 72#72: *24 open() "/usr/share/nginx/html/js/js/app.9a8d58fb.js" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /js/app.9a8d58fb.js HTTP/1.1", host: "localhost"
+2023/12/27 07:23:44 [error] 69#69: *21 open() "/usr/share/nginx/html/css/css/chunk-vendors.db4f9ddf.css" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /css/chunk-vendors.db4f9ddf.css HTTP/1.1", host: "localhost"
+2023/12/27 07:25:02 [notice] 78#78: signal process started
+2023/12/27 07:25:06 [error] 79#79: *25 open() "/usr/share/nginx/html/css/css/chunk-vendors.db4f9ddf.css" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /css/chunk-vendors.db4f9ddf.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:25:06 [error] 80#80: *26 open() "/usr/share/nginx/html/css/css/app.25c60abc.css" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /css/app.25c60abc.css HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:25:06 [error] 80#80: *26 open() "/usr/share/nginx/html/js/js/chunk-vendors.cb1d2eb4.js" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /js/chunk-vendors.cb1d2eb4.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:25:06 [error] 79#79: *25 open() "/usr/share/nginx/html/js/js/app.9a8d58fb.js" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /js/app.9a8d58fb.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:25:06 [error] 81#81: *27 open() "/usr/share/nginx/html/js/js/chunk-vendors.cb1d2eb4.js" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /js/chunk-vendors.cb1d2eb4.js HTTP/1.1", host: "localhost"
+2023/12/27 07:25:06 [error] 82#82: *28 open() "/usr/share/nginx/html/js/js/app.9a8d58fb.js" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /js/app.9a8d58fb.js HTTP/1.1", host: "localhost"
+2023/12/27 07:25:39 [notice] 87#87: signal process started
+2023/12/27 07:25:42 [error] 88#88: *29 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/27 07:25:42 [error] 88#88: *29 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:26:02 [notice] 96#96: signal process started
+2023/12/27 07:26:04 [error] 97#97: *30 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/27 07:26:05 [error] 97#97: *30 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:38:05 [error] 98#98: *31 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/27 07:38:05 [error] 98#98: *31 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:38:09 [notice] 105#105: signal process started
+2023/12/27 07:41:09 [notice] 124#124: signal process started
+2023/12/27 07:49:25 [notice] 136#136: signal process started
+2023/12/27 07:49:30 [error] 137#137: *41 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/12/27 07:49:30 [error] 138#138: *42 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/12/27 07:49:57 [notice] 149#149: signal process started
+2023/12/27 08:04:36 [notice] 162#162: signal process started
+2023/12/27 08:05:14 [notice] 171#171: signal process started
+2023/12/27 08:05:37 [notice] 180#180: signal process started

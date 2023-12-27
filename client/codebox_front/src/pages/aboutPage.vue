@@ -35,7 +35,7 @@
                         在这个项目之前我其实还做了另一个项目，是一个 “在线的可视化的快速的页面布局工具”，只可惜它烂尾了。
                         我发现我实际做出来的东西和我想要的东西不一样，并且即使我把它做出来了，我也不喜欢使用它。
                         那对于一个工具来说，如果一个创造它的人他都不喜欢使用这个工具的话，那这个工具的意义在哪里呢？故而我停止了那个项目的开发。
-                        而此时那个项目已经花掉我 2 个月的时间了。如果你想看看那个项目，可见链接：<el-link>填写链接</el-link>
+                        而此时那个项目已经花掉我 2 个月的时间了。如果你想看看那个项目，可见链接：<el-link href="http://116.62.228.72/#/">简单设计</el-link>
                     </el-text>
 
                     <el-text>
@@ -46,7 +46,7 @@
 
                     <el-text>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        本项目在 github 上开源，链接：<el-link>填写链接</el-link>
+                        本项目在 github 上开源，链接：<el-link href="https://github.com/Cinichengbuweikong/CodeBox">github</el-link>
                     </el-text>
                 </el-row>
 

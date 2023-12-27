@@ -5,6 +5,7 @@ const ElementPlus = require('unplugin-element-plus/webpack');
 
 const { defineConfig } = require('@vue/cli-service')
 
+
 module.exports = defineConfig({
   transpileDependencies: true,
 
@@ -38,24 +39,26 @@ module.exports = defineConfig({
     }
   },
 
-  devServer: {
-    proxy: {
-      '/api': {
-        target: "http://localhost",
-        pathRewrite: {
-          "^/api": "/api"
-        },
-        changeOrigin: true
-      },
+  publicPath: "/"
 
-      "/assets": {
-        target: "http://localhost",
-        pathRewrite: {
-          "^/assets": "/assets"
-        },
-        changeOrigin: true
-      }
-    }
-  },
+  // devServer: {
+  //   proxy: {
+  //     '/api': {
+  //       target: "http://localhost",
+  //       pathRewrite: {
+  //         "^/api": "/api"
+  //       },
+  //       changeOrigin: true
+  //     },
+
+  //     "/assets": {
+  //       target: "http://localhost",
+  //       pathRewrite: {
+  //         "^/assets": "/assets"
+  //       },
+  //       changeOrigin: true
+  //     }
+  //   }
+  // },
 
 })

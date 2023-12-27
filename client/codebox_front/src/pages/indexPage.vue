@@ -40,8 +40,8 @@
         </el-container>
 
         <WelcomeDialog
-            :show="showWelcomeDialog"
-            :closeDialog="closeWelcomeDialog" 
+            :show="store.state.showWelcomeDialog"
+            :closeDialog="() => store.commit('HIDE_WELCOME_DIALOG')" 
         />
     </div>
 </template>
@@ -54,6 +54,7 @@ import {
     defineOptions,
     computed
 } from "vue";
+import { useStore } from "vuex";
 
 import PageHeader from "../components/Header/pageHeader.vue";
 import PageFooter from "../components/Footer/pageFooter.vue";
@@ -63,14 +64,13 @@ import WelcomeDialog from "@/components/Dialog/welcomeDialog.vue";
 defineOptions({
     name: "IndexPage"
 });
+const store = useStore();
 
 
 const mainRef = ref<ComponentPublicInstance | null>(null);
 const sectionRef = ref<HTMLElement | null>(null);
 const scrollPercent = ref<number>(0);
 // 记录整个 el-main 已经滚动了百分之几的 ref
-const showWelcomeDialog = ref<boolean>(true);
-// 是否显示欢迎对话框
 
 
 const calcStyle = computed(() => ({
@@ -295,12 +295,6 @@ function getText(immediateScrollPercent: number) {
     } else {
         return states[100];
     }
-}
-
-function closeWelcomeDialog() {
-    // 关闭欢迎对话框的函数
-
-    showWelcomeDialog.value = false;
 }
 </script>
 

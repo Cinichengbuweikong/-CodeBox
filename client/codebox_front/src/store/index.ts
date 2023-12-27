@@ -9,6 +9,9 @@ interface State {
 
     userinfo: UserInfo | null,
     // 用户个人信息
+
+    showWelcomeDialog: Boolean,
+    // 是否显示欢迎对话框
 }
 
 interface Context {
@@ -19,7 +22,8 @@ interface Context {
 
 
 const state: State = {
-    userinfo: null
+    userinfo: null,
+    showWelcomeDialog: true
 };
 
 const actions = {
@@ -48,6 +52,11 @@ const mutations = {
     REMOVE_USER_INFO(state: State) {
         // 删除登录用户信息
         state.userinfo = null;
+    },
+
+    HIDE_WELCOME_DIALOG(state: State) {
+        // 取消显示欢迎对话框
+        state.showWelcomeDialog = false;
     }
 };
 
