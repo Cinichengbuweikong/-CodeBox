@@ -122,3 +122,8 @@ class ResopnseOperationResultType(StrEnum):
 
     OK = "ok"
     FAIL = "fail"
+
+
+
+
+
