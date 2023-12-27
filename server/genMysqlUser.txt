@@ -1,2 +1,0 @@
-GRANT INSERT, UPDATE, SELECT, DELETE ON *.* TO 'codeBox'@'%' IDENTIFIED BY '8161a099';
-flush privileges;

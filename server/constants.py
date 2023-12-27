@@ -2,8 +2,7 @@ import os
 from enum import Enum, IntEnum, StrEnum
 
 
-# DB_URL: str = "mysql://root:2c18be2e@mysql:3306/codeBox?charset=utf8"
-DB_URL: str = "mysql://codeBox:8161a099@mysql:3306/codeBox?charset=utf8"
+DB_URL: str = ""
 """
 数据库 url
 """
@@ -13,22 +12,22 @@ SALT: str = "2496BED6ECF492A;.~g_n%` v%_i^&s$u:]^[u~+;941fcy:;9B2338C978450E3B7"
 盐
 """
 
-REDIS_URL: str = "redis://redis:6379"
+REDIS_URL: str = ""
 """
 redis 链接
 """
 
-REDIS_PASSWORD: str = "394d9664"
+REDIS_PASSWORD: str = ""
 """
 redis 密码
 """
 
-KEY: str = "L<vPEG?@g^o:T{LL"
+KEY: str = ""
 """
 对称加密的密钥
 """
 
-ADMIN_PWD: str = "Wsfqz^TgIq#E5P(840nC"
+ADMIN_PWD: str = ""
 """
 管理员用户的密码
 """
