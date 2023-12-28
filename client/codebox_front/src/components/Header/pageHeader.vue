@@ -10,7 +10,7 @@
                 <input
                     class="searchInput"
                     v-model="searchQuery"
-                    placeholder="搜索你想要的内容..."
+                    placeholder="搜索你想要的内容... 新用户请搜索 Hello World"
                     @keydown.enter="searchProjects"
                 />
             </el-col>
